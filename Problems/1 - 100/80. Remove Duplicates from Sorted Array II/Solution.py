@@ -5,14 +5,11 @@ class Solution(object):
         :rtype: int
         """
         # Option 2
-        try:
-            x = 0
-            for value in nums:
-                if value != nums[x-2] or x < 2:
-                    nums[x] = value
-                    x+=1
-        except:
-            return 1
+        x = 0
+        for value in nums:
+            if x < 2 or value != nums[x-2]:
+                nums[x] = value
+                x+=1
 
         return x
         
