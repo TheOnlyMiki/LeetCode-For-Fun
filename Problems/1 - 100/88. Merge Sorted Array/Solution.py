@@ -8,13 +8,13 @@ class Solution(object):
         :rtype: None Do not return anything, modify nums1 in-place instead.
         """
         #Initial positive for nums1 and nums2
-        x, y, length = 0, 0, m + n
+        x, y = 0, 0
 
         #Clone nums1
         clone_nums1 = nums1[:]
 
         # Forloop in O(m+n)
-        for i in range(length):
+        for i in range(m + n):
             if x == m:
                 nums1[i] = nums2[y]
                 y+=1
