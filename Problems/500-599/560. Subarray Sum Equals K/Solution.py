@@ -11,10 +11,10 @@ class Solution(object):
         output = 0
 
         for value in nums:
-            if consum not in sums:
-                sums[consum] = 1
-            else:
+            if consum in sums:
                 sums[consum] += 1
+            else:
+                sums[consum] = 1
 
             consum += value
 
