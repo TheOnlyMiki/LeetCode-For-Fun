@@ -13,7 +13,6 @@ class Solution(object):
         #Clone nums1
         clone_nums1 = nums1[:]
 
-        # Forloop in O(m+n)
         for i in range(m + n):
             if x == m:
                 nums1[i] = nums2[y]
@@ -27,5 +26,3 @@ class Solution(object):
             elif clone_nums1[x] < nums2[y]:
                 nums1[i] = clone_nums1[x]
                 x+=1
-            
-        print(nums1)
