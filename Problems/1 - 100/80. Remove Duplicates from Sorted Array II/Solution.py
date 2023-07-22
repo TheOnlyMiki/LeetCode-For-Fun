@@ -5,16 +5,14 @@ class Solution(object):
         :rtype: int
         """
         # Option 2
-        x = 0
-        duplicate = 0
-
-        for value in nums:
-            if duplicate < 2 or value != nums[x-1]:
-                if value != nums[x-1]:
-                    duplicate = 0
-                duplicate+=1
-                nums[x] = value
-                x+=1
+        try:
+            x = 0
+            for value in nums:
+                if value != nums[x-2] or x < 2:
+                    nums[x] = value
+                    x+=1
+        except:
+            return 1
 
         return x
         
