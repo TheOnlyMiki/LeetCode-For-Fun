@@ -5,18 +5,18 @@ class Solution(object):
         :rtype: int
         """
 
-        x = 1
-        duplicate_value = nums[0]
-        duplicate_allow = True
+        x = 0
+        duplicate = 0 
 
-        for i in range(1, len(nums)):
-            if duplicate_value != nums[i]:
-                nums[x] = duplicate_value = nums[i]
-                duplicate_allow = True
+        for value in nums:
+            print(value, nums[x-1], duplicate)
+            if value == nums[x-1] and duplicate < 2:
+                duplicate+=1
+                nums[x] = value
                 x+=1
-            elif duplicate_allow:
-                nums[x] = duplicate_value
-                duplicate_allow = False
+            elif value != nums[x-1]:
+                duplicate = 1
+                nums[x] = value
                 x+=1
 
         return x
