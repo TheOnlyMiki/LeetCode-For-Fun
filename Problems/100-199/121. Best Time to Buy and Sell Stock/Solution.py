@@ -11,12 +11,10 @@ class Solution(object):
                 pre_low = price
                 continue
 
-            profit = max(profit, price - pre_low)
-            """
-            current_profit = price - pre_low
+            #profit = max(profit, price - pre_low)
             
-            if profit < current_profit:
-                profit = current_profit
-            """
+            if profit < price - pre_low:
+                profit = price - pre_low
+            
 
         return profit
