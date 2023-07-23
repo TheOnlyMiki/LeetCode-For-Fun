@@ -4,7 +4,12 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
+        #Option 3
+        nums.sort()
+        return nums[int(len(nums)/2)]
+
         #Option 2
+        """
         count = {}
         
         for value in nums:
@@ -14,6 +19,7 @@ class Solution(object):
                 count[value] = 1
         
         return max(count, key=count.get)
+        """
 
         #Option 1
         """
