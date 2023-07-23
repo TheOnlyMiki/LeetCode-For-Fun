@@ -5,6 +5,20 @@ class Solution(object):
         :rtype: int
         """
 
+        profit = 0
+        pre_low = prices[0]
+        for price in prices:
+            if pre_low < price:
+                profit += price - pre_low
+            pre_low = price
+
+        return profit
+
+        """
+        #First, I thought the question says you can only hold 1 stock and only can trade 
+        #up to two times, and only if you sold the stock you have been held, then you can 
+        #purchased the new stock :(
+
         total_profit = 0
         profit = 0
         pre_low = prices[0]
@@ -38,3 +52,4 @@ class Solution(object):
                     total_profit = current_total_profit
 
         return total_profit
+        """
