@@ -5,6 +5,20 @@ class Solution(object):
         :rtype: bool
         """
 
+        #Option 2
+        max_reachable_position = 0
+
+        for i, jump in enumerate(nums):
+            if i > max_reachable_position:
+                return False
+                
+            if i + jump > max_reachable_position:
+                max_reachable_position = i + jump
+        
+        return True
+
+        #Option 1
+        """
         back_position = len(nums)-1
         
         for i in range(back_position-1, -1, -1):
@@ -14,8 +28,8 @@ class Solution(object):
         if back_position == 0:
             return True
         
-        return False    
-
+        return False
+        """
 
 """
 #Recursion backward method - slow and one step by step check
