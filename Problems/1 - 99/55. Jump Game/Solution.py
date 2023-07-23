@@ -4,16 +4,14 @@ class Solution(object):
         :type nums: List[int]
         :rtype: bool
         """
-        last_index = len(nums) - 1
 
-        prejump = {0:[]}
-        for i, jump in enumerate(nums[:last_index]):
-            if i + jump in prejump:
-                prejump[i + jump].append(i)
-            else:
-                prejump[i + jump] = [i]
+        back_position = len(nums)-1
+        
+        for i in range(back_position-1, -1, -1):
+            if i + nums[i] >= back_position:
+                back_position = i
 
-        if max(prejump.keys()) >= last_index:
+        if back_position == 0:
             return True
         
         return False    
