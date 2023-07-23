@@ -6,14 +6,12 @@ class Solution(object):
         """
         last_index = len(nums) - 1
 
-        prejump = {0:0}
+        prejump = {0:[]}
         for i, jump in enumerate(nums[:last_index]):
             if i + jump in prejump:
                 prejump[i + jump].append(i)
             else:
                 prejump[i + jump] = [i]
-
-        print(prejump)  
 
         if max(prejump.keys()) >= last_index:
             return True
