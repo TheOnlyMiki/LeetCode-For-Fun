@@ -8,8 +8,8 @@ class Solution(object):
 
         #n = len(nums)
         #k_new = k % n
-        shift_position = len(nums) - (k % len(nums))
+        shift_position = k % len(nums)
 
-        #return nums[shift_position:] + nums[:shift_position]
+        #return nums[-shift_position:] + nums[:-shift_position]
 
-        nums[:] = nums[shift_position:] + nums[:shift_position]
+        nums[:] = nums[-shift_position:] + nums[:-shift_position]
