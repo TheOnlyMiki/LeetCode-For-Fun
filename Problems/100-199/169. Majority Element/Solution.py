@@ -4,6 +4,19 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
+        #Option 2
+        count = {}
+        
+        for value in nums:
+            if value in count:
+                count[value] += 1
+            else:
+                count[value] = 1
+        
+        return max(count, key=count.get)
+
+        #Option 1
+        """
         count = {}
         n = len(nums)
         majority = int((n+1)/2)
@@ -21,4 +34,4 @@ class Solution(object):
                 else:
                     count[nums[i]] = 1
         
-        return max(count, key=count.get)
+        return max(count, key=count.get)"""
