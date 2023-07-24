@@ -3,10 +3,10 @@ Let's play LeetCode when I'm bored
 
 | __LEVEL__ | __COUNT__ |
 |:------:|:------:|
-| [Easy](#easy-level)     | 5 |
+| [Easy](#easy-level)     | 6 |
 | [Medium](#medium-level) | 5 |
 | [Hard](#hard-level)     | 0 |
-| __TOTAL__  | __10__ |
+| __TOTAL__  | __11__ |
 ---
 
 ## Easy Level
@@ -17,6 +17,7 @@ Let's play LeetCode when I'm bored
 | [88. Merge Sorted Array](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/88.%20Merge%20Sorted%20Array) | [Array](#array), [Two Pointers](#two-pointers), [Sorting](#sorting) |
 | [121. Best Time to Buy and Sell Stock](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock) | [Array](#array), [Dynamic Programming](#dynamic-programming) |
 | [169. Majority Element](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/169.%20Majority%20Element) | [Array](#array), [Hash Table](#hash-table), [Divide and Conquer](#divide-and-conquer), [Sorting](#sorting), [Counting](#counting) |
+| [205. Isomorphic Strings](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/205.%20Isomorphic%20Strings) | [Hash Table](#hash-table), [String](#string) |
 --- 
 
 ## Medium Level
@@ -78,6 +79,7 @@ Let's play LeetCode when I'm bored
 | __QUESTION__ | __TAG__ |
 |------|------|
 | [169. Majority Element](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/169.%20Majority%20Element) | [Easy](#easy-level), [Array](#array), [Hash Table](#hash-table), [Divide and Conquer](#divide-and-conquer), [Sorting](#sorting), [Counting](#counting) |
+| [205. Isomorphic Strings](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/205.%20Isomorphic%20Strings) | [Easy](#easy-level), [Hash Table](#hash-table), [String](#string) |
 | [560. Subarray Sum Equals K](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/500-599/560.%20Subarray%20Sum%20Equals%20K) | [Medium](#medium-level), [Array](#array), [Hash Table](#hash-table), [Prefix Sum](#prefix-sum) |
 ---
 
@@ -110,4 +112,10 @@ Let's play LeetCode when I'm bored
 | __QUESTION__ | __TAG__ |
 |------|------|
 | [560. Subarray Sum Equals K](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/500-599/560.%20Subarray%20Sum%20Equals%20K) | [Medium](#medium-level), [Array](#array), [Hash Table](#hash-table), [Prefix Sum](#prefix-sum) |
+---
+
+## String
+| __QUESTION__ | __TAG__ |
+|------|------|
+| [205. Isomorphic Strings](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/205.%20Isomorphic%20Strings) | [Easy](#easy-level), [Hash Table](#hash-table), [String](#string) |
 ---
