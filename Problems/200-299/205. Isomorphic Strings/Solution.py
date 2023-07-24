@@ -11,7 +11,6 @@ class Solution(object):
 
         public = {'s':{}, 't': {}}
         for i in range(len(s)):
-            print(public)
             if public['s'].get(s[i]) != public['t'].get(t[i]):
                 return False
             public['s'][s[i]] = i
