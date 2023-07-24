@@ -29,7 +29,7 @@ Let's play LeetCode when I'm bored
 | [122. Best Time to Buy and Sell Stock II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II) | [Array](#array), [Dynamic Programming](#dynamic-programming), [Greedy](#greedy) |
 | [189. Rotate Array](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/189.%20Rotate%20Array) | [Array](#array), [Math](#math), [Two Pointers](#two-pointers) |
 | [274. H-Index](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/274.%20H-Index) | [Array](#array), [Sorting](#sorting), [Counting](#counting) |
-| [380. Insert Delete GetRandom O(1)](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/300-399/380.%20Insert%20Delete%20GetRandom%20O(1)F) | [Array](#array), [Hash Table](#hash-table), [Math](#math), [Design](#design), [Randomized](#randomized) |
+| [380. Insert Delete GetRandom O(1)](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/300-399/380.%20Insert%20Delete%20GetRandom%20O(1)) | [Array](#array), [Hash Table](#hash-table), [Math](#math), [Design](#design), [Randomized](#randomized) |
 | [560. Subarray Sum Equals K](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/500-599/560.%20Subarray%20Sum%20Equals%20K) | [Array](#array), [Hash Table](#hash-table), [Prefix Sum](#prefix-sum) |
 ---
 
@@ -52,7 +52,7 @@ Let's play LeetCode when I'm bored
 | [169. Majority Element](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/169.%20Majority%20Element) | [Easy](#easy-level), [Array](#array), [Hash Table](#hash-table), [Divide and Conquer](#divide-and-conquer), [Sorting](#sorting), [Counting](#counting) |
 | [189. Rotate Array](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/189.%20Rotate%20Array) | [Medium](#medium-level), [Array](#array), [Math](#math), [Two Pointers](#two-pointers) |
 | [274. H-Index](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/274.%20H-Index) | [Medium](#medium-level), [Array](#array), [Sorting](#sorting), [Counting](#counting) |
-| [380. Insert Delete GetRandom O(1)](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/300-399/380.%20Insert%20Delete%20GetRandom%20O(1)F) | [Medium](#medium-level), [Array](#array), [Hash Table](#hash-table), [Math](#math), [Design](#design), [Randomized](#randomized) |
+| [380. Insert Delete GetRandom O(1)](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/300-399/380.%20Insert%20Delete%20GetRandom%20O(1)) | [Medium](#medium-level), [Array](#array), [Hash Table](#hash-table), [Math](#math), [Design](#design), [Randomized](#randomized) |
 | [560. Subarray Sum Equals K](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/500-599/560.%20Subarray%20Sum%20Equals%20K) | [Medium](#medium-level), [Array](#array), [Hash Table](#hash-table), [Prefix Sum](#prefix-sum) |
 ---
 
@@ -88,7 +88,7 @@ Let's play LeetCode when I'm bored
 |------|------|
 | [169. Majority Element](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/169.%20Majority%20Element) | [Easy](#easy-level), [Array](#array), [Hash Table](#hash-table), [Divide and Conquer](#divide-and-conquer), [Sorting](#sorting), [Counting](#counting) |
 | [205. Isomorphic Strings](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/205.%20Isomorphic%20Strings) | [Easy](#easy-level), [Hash Table](#hash-table), [String](#string) |
-| [380. Insert Delete GetRandom O(1)](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/300-399/380.%20Insert%20Delete%20GetRandom%20O(1)F) | [Medium](#medium-level), [Array](#array), [Hash Table](#hash-table), [Math](#math), [Design](#design), [Randomized](#randomized) |
+| [380. Insert Delete GetRandom O(1)](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/300-399/380.%20Insert%20Delete%20GetRandom%20O(1)) | [Medium](#medium-level), [Array](#array), [Hash Table](#hash-table), [Math](#math), [Design](#design), [Randomized](#randomized) |
 | [560. Subarray Sum Equals K](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/500-599/560.%20Subarray%20Sum%20Equals%20K) | [Medium](#medium-level), [Array](#array), [Hash Table](#hash-table), [Prefix Sum](#prefix-sum) |
 ---
 
@@ -117,7 +117,7 @@ Let's play LeetCode when I'm bored
 | __QUESTION__ | __TAG__ |
 |------|------|
 | [189. Rotate Array](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/189.%20Rotate%20Array) | [Medium](#medium-level), [Array](#array), [Math](#math), [Two Pointers](#two-pointers) |
-| [380. Insert Delete GetRandom O(1)](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/300-399/380.%20Insert%20Delete%20GetRandom%20O(1)F) | [Medium](#medium-level), [Array](#array), [Hash Table](#hash-table), [Math](#math), [Design](#design), [Randomized](#randomized) |
+| [380. Insert Delete GetRandom O(1)](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/300-399/380.%20Insert%20Delete%20GetRandom%20O(1)) | [Medium](#medium-level), [Array](#array), [Hash Table](#hash-table), [Math](#math), [Design](#design), [Randomized](#randomized) |
 ---
 
 ## Prefix Sum
@@ -135,11 +135,11 @@ Let's play LeetCode when I'm bored
 ## Design
 | __QUESTION__ | __TAG__ |
 |------|------|
-| [380. Insert Delete GetRandom O(1)](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/300-399/380.%20Insert%20Delete%20GetRandom%20O(1)F) | [Medium](#medium-level), [Array](#array), [Hash Table](#hash-table), [Math](#math), [Design](#design), [Randomized](#randomized) |
+| [380. Insert Delete GetRandom O(1)](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/300-399/380.%20Insert%20Delete%20GetRandom%20O(1)) | [Medium](#medium-level), [Array](#array), [Hash Table](#hash-table), [Math](#math), [Design](#design), [Randomized](#randomized) |
 ---
 
 ## Randomized
 | __QUESTION__ | __TAG__ |
 |------|------|
-| [380. Insert Delete GetRandom O(1)](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/300-399/380.%20Insert%20Delete%20GetRandom%20O(1)F) | [Medium](#medium-level), [Array](#array), [Hash Table](#hash-table), [Math](#math), [Design](#design), [Randomized](#randomized) |
+| [380. Insert Delete GetRandom O(1)](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/300-399/380.%20Insert%20Delete%20GetRandom%20O(1)) | [Medium](#medium-level), [Array](#array), [Hash Table](#hash-table), [Math](#math), [Design](#design), [Randomized](#randomized) |
 ---
