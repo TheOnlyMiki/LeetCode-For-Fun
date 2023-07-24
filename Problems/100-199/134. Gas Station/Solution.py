@@ -8,20 +8,17 @@ class Solution(object):
 
         #Option 2
         remain_gas = 0
-        balance_gas = 0
         start = 0
 
+        if sum(gas) - sum(cost) < 0:
+            return -1
+
         for i, spend in enumerate(cost):
-            diff = gas[i] - spend
-            remain_gas += diff
-            balance_gas += diff
+            remain_gas += gas[i] - spend
 
             if remain_gas < 0:
                 start = i + 1
                 remain_gas = 0
-
-        if balance_gas < 0:
-            return -1
 
         return start
 
