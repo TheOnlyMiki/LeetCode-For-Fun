@@ -6,14 +6,12 @@ class Solution(object):
         :rtype: bool
         """
 
-        if len(s) != len(t):
-            return False
-
-        public = {'s':{}, 't': {}}
+        public_s = {}
+        public_t = {}
         for i in range(len(s)):
-            if public['s'].get(s[i]) != public['t'].get(t[i]):
+            if public_s.get(s[i]) != public_t.get(t[i]):
                 return False
-            public['s'][s[i]] = i
-            public['t'][t[i]] = i
+            public_s[s[i]] = i
+            public_t[t[i]] = i
 
         return True
