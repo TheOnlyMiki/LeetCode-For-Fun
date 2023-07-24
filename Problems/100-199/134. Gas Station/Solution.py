@@ -5,12 +5,34 @@ class Solution(object):
         :type cost: List[int]
         :rtype: int
         """
-        n = len(gas)
 
+        #Option 2
+        remain_gas = 0
+        balance_gas = 0
+        start = 0
+
+        for i, spend in enumerate(cost):
+            diff = gas[i] - spend
+            remain_gas += diff
+            balance_gas += diff
+
+            if remain_gas < 0:
+                start = i + 1
+                remain_gas = 0
+
+        if balance_gas < 0:
+            return -1
+
+        return start
+
+        #Option 1 - BF method, too slow
+        """
+        n = len(gas)
         for i in range(n+1):
             i = i % n
             start_gas = 0
             reachable = 0
+
             for i_2 in range(n+1):
                 i_2 = (i + i_2) % n
                 start_gas += gas[i_2]
@@ -19,8 +41,9 @@ class Solution(object):
                 else:
                     start_gas -= cost[i_2]
                     reachable+=1
-            
+
             if reachable == n+1:
                 return i
 
         return -1
+        """
