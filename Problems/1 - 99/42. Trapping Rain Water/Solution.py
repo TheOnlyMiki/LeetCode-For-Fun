@@ -7,7 +7,37 @@ class Solution(object):
 
         n = len(height)
 
+        #Option 3 - Stack
+        consum = 0
+        height_stack = []
+        i = 0
+
+        while i < n:
+            # Stack not empty and current column higher than last wall in stack
+            while len(height_stack) != 0 and height[i] > height[height_stack[-1]]:
+                # Take the info out from the stack then pop out
+                last_wall_index = height_stack[-1]
+                height_stack.pop()
+                # There is no column in stack higher than current column
+                if len(height_stack) == 0:
+                    break
+
+                # Distance is current index minus the last column that after pop out.
+                # And the distance that can used to re-calculate the missing part between 
+                # last height wall
+                distance = i - height_stack[-1] - 1
+                # Find out which wall is loswest (between current and pre last column)
+                min_column = min(height[i], height[height_stack[-1]])
+                consum += distance * (min_column - height[last_wall_index])
+
+            height_stack.append(i)
+            #Move to next index
+            i+=1
+
+        return consum
+
         #Option 2 - Dynamic pointer method time O(n) space O(1)
+        """
         consum = 0
         left = 1
         right = n-2
@@ -36,6 +66,7 @@ class Solution(object):
                 right-=1
 
         return consum
+        """
 
         #Option 1 - Dynamic method time O(n) space O(n)
         """
