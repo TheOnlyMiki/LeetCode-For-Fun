@@ -5,20 +5,33 @@ class Solution(object):
         :rtype: int
         """
         n = len(ratings)
-        count = [1] * n
-        lowest = min(ratings)
-        low_index = ratings.index(lowest)
+        #count = [1] * n
+        count1 = {}
 
-        for i in range(low_index + 1, n):
-            if ratings[i] > ratings[i - 1]:
-                count[i] = count[i - 1] + 1
+        for i, value in enumerate(ratings):
+            if value in count1:
+                count1[value].append(i)
             else:
-                count[i] = count[i - 1] - 1
+                count1[value] = [i]
 
-        for i in range(low_index - 1, -1 ,-1):
-            if ratings[i] > ratings[i + 1]:
-                count[i] = count[i + 1] + 1
-            else:
-                count[i] = count[i + 1] - 1
+        lowest = min(count1.keys())
+        low_list = count1[lowest]
+        count_candy = []
 
-        return sum(count)
+        for low_index in low_list:
+            count = [1] * n
+            for i in range(low_index + 1, n):
+                if ratings[i] > ratings[i - 1]:
+                    count[i] = count[i - 1] + 1
+                else:
+                    count[i] = count[i - 1] - 1
+
+            for i in range(low_index - 1, -1 ,-1):
+                if ratings[i] > ratings[i + 1]:
+                    count[i] = count[i + 1] + 1
+                else:
+                    count[i] = count[i + 1] - 1
+
+            count_candy.append(sum(count))
+
+        return min(count_candy)
