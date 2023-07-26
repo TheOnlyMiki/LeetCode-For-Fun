@@ -15,9 +15,7 @@ class Solution(object):
             match = 0
 
             for i, c in enumerate(s):
-                if i == first_s_length:
-                    break
-                elif strs[0][i] == c:
+                if i < first_s_length and strs[0][i] == c:
                     match+=1
                 else:
                     break
