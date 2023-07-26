@@ -27,7 +27,7 @@ Let's play LeetCode when I'm bored
 ## Medium Level
 | __QUESTION__ | __TAG__ |
 |------|------|
-| [6. Zigzag Conversion](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/6.%20Zigzag%20Conversion) | [String](#string) |
+| [6. Zigzag Conversion](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/%206.%20Zigzag%20Conversion) | [String](#string) |
 | [12. Integer to Roman](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/12.%20Integer%20to%20Roman) | [Hash Table](#hash-table), [Math](#math), [String](#string) |
 | [45. Jump Game II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/45.%20Jump%20Game%20II) | [Array](#array), [Dynamic Programming](#dynamic-programming), [Greedy](#greedy) |
 | [55. Jump Game](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/55.%20Jump%20Game) | [Array](#array), [Dynamic Programming](#dynamic-programming), [Greedy](#greedy) |
@@ -157,7 +157,7 @@ Let's play LeetCode when I'm bored
 ## String
 | __QUESTION__ | __TAG__ |
 |------|------|
-| [6. Zigzag Conversion](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/6.%20Zigzag%20Conversion) | [Medium](#medium-level), [String](#string) |
+| [6. Zigzag Conversion](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/%206.%20Zigzag%20Conversion) | [Medium](#medium-level), [String](#string) |
 | [12. Integer to Roman](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/12.%20Integer%20to%20Roman) | [Medium](#medium-level), [Hash Table](#hash-table), [Math](#math), [String](#string) |
 | [13. Roman to Integer](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/13.%20Roman%20to%20Integer) | [Easy](#easy-level), [Hash Table](#hash-table), [Math](#math), [String](#string) |
 | [14. Longest Common Prefix](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/14.%20Longest%20Common%20Prefix) | [Easy](#easy-level), [String](#string) |
