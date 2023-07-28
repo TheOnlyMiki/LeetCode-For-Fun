@@ -5,6 +5,20 @@ class Solution(object):
         :type t: str
         :rtype: bool
         """
+        #Option 2
+        i = 0
+
+        try:
+            for c in t:
+                if s[i] == c:
+                    i+=1
+        except:
+            return True
+        
+        return i == len(s)
+
+        #Option 1
+        """
         record = 0
         n = len(t)
 
@@ -15,5 +29,6 @@ class Solution(object):
                     return False
         except:
             return False
+        """
 
         return True
