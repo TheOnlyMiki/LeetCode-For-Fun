@@ -9,11 +9,15 @@ class Solution(object):
         left = 0
         right = distance
         max_record = 0
+        higher = max(height)
 
-        while left != right:
-            area = distance * min(height[left], height[right])
+        while left < right:
+            area = min(height[left], height[right]) * distance
             if max_record < area:
                 max_record = area
+            
+            if higher * distance < max_record:
+                return max_record
 
             # Initial next iteration
             if height[left] > height[right]:
