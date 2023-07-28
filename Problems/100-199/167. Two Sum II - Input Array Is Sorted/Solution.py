@@ -7,12 +7,10 @@ class Solution(object):
         """
 
         diff = {}
-        output = None
         
         for i, number in enumerate(numbers):
             if number in diff:
-                output = [diff[number], i+1]
-                break
+                return [diff[number], i+1]
             diff[target - number] = i+1
 
-        return output
+        return None
