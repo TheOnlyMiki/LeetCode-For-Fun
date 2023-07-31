@@ -3,10 +3,10 @@ Let's play LeetCode when I'm bored
 
 | __LEVEL__ | __COUNT__ |
 |:------:|:------:|
-| [Easy](#easy-level)     | 17 |
-| [Medium](#medium-level) | 24 |
+| [Easy](#easy-level)     | 19 |
+| [Medium](#medium-level) | 27 |
 | [Hard](#hard-level)     | 5 |
-| __TOTAL__  | __46__ |
+| __TOTAL__  | __51__ |
 ---
 
 ## Easy Level
@@ -24,8 +24,10 @@ Let's play LeetCode when I'm bored
 | [125. Valid Palindrome](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/125.%20Valid%20Palindrome) | [Two Pointers](#two-pointers), [String](#string) |
 | [169. Majority Element](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/169.%20Majority%20Element) | [Array](#array), [Hash Table](#hash-table), [Divide and Conquer](#divide-and-conquer), [Sorting](#sorting), [Counting](#counting) |
 | [202. Happy Number](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/202.%20Happy%20Number) | [Hash Table](#hash-table), [Math](#math), [Two Pointers](#two-pointers) |
-| [242. Valid Anagram](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/242.%20Valid%20Anagram) | [Hash Table](#hash-table), [String](#string), [Sorting](#sorting) |
 | [205. Isomorphic Strings](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/205.%20Isomorphic%20Strings) | [Hash Table](#hash-table), [String](#string) |
+| [219. Contains Duplicate II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/219.%20Contains%20Duplicate%20II) | [Array](#array), [Hash Table](#hash-table), [Sliding Window](#sliding-window) |
+| [228. Summary Ranges](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/228.%20Summary%20Ranges) | [Array](#array) |
+| [242. Valid Anagram](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/242.%20Valid%20Anagram) | [Hash Table](#hash-table), [String](#string), [Sorting](#sorting) |
 | [290. Word Pattern](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/290.%20Word%20Pattern) | [Hash Table](#hash-table), [String](#string) |
 | [383. Ransom Note](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/300-399/383.%20Ransom%20Note) | [Hash Table](#hash-table), [String](#string), [Counting](#counting) |
 | [392. Is Subsequence](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/300-399/392.%20Is%20Subsequence) | [Two Pointers](#two-pointers), [String](#string), [Dynamic Programming](#dynamic-programming) |
@@ -45,9 +47,12 @@ Let's play LeetCode when I'm bored
 | [49. Group Anagrams](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/49.%20Group%20Anagrams) | [Array](#array), [Hash Table](#hash-table), [String](#string), [Sorting](#sorting) |
 | [54. Spiral Matrix](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/54.%20Spiral%20Matrix) | [Array](#array), [Matrix](#matrix) |
 | [55. Jump Game](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/55.%20Jump%20Game) | [Array](#array), [Dynamic Programming](#dynamic-programming), [Greedy](#greedy) |
+| [56. Merge Intervals](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/56.%20Merge%20Intervals) | [Array](#array), [Sorting](#sorting) |
+| [57. Insert Interval](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/57.%20Insert%20Interval) | [Array](#array) |
 | [73. Set Matrix Zeroes](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/73.%20Set%20Matrix%20Zeroes) | [Array](#array), [Hash Table](#hash-table), [Matrix](#matrix) |
 | [80. Remove Duplicates from Sorted Array II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II) | [Array](#array), [Two Pointers](#two-pointers) |
 | [122. Best Time to Buy and Sell Stock II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II) | [Array](#array), [Dynamic Programming](#dynamic-programming), [Greedy](#greedy) |
+| [128. Longest Consecutive Sequence](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/128.%20Longest%20Consecutive%20Sequence) | [Array](#array), [Hash Table](#hash-table), [Union Find](#union-find) |
 | [134. Gas Station](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/134.%20Gas%20Station) | [Array](#array), [Greedy](#greedy) |
 | [151. Reverse Words in a String](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/151.%20Reverse%20Words%20in%20a%20String) | [Two Pointers](#two-pointers), [String](#string) |
 | [167. Two Sum II - Input Array Is Sorted](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted) | [Array](#array), [Two Pointers](#two-pointers), [Binary Search](#binary-search) |
@@ -85,18 +90,23 @@ Let's play LeetCode when I'm bored
 | [49. Group Anagrams](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/49.%20Group%20Anagrams) | [Medium](#medium-level), [Array](#array), [Hash Table](#hash-table), [String](#string), [Sorting](#sorting) |
 | [54. Spiral Matrix](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/54.%20Spiral%20Matrix) | [Medium](#medium-level), [Array](#array), [Matrix](#matrix) |
 | [55. Jump Game](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/55.%20Jump%20Game) | [Medium](#medium-level), [Array](#array), [Dynamic Programming](#dynamic-programming), [Greedy](#greedy) |
+| [56. Merge Intervals](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/56.%20Merge%20Intervals) | [Medium](#medium-level), [Array](#array), [Sorting](#sorting) |
+| [57. Insert Interval](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/57.%20Insert%20Interval) | [Medium](#medium-level), [Array](#array) |
 | [68. Text Justification](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/68.%20Text%20Justification) | [Hard](#hard-level), [Array](#array), [String](#string) |
 | [73. Set Matrix Zeroes](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/73.%20Set%20Matrix%20Zeroes) | [Medium](#medium-level), [Array](#array), [Hash Table](#hash-table), [Matrix](#matrix) |
 | [80. Remove Duplicates from Sorted Array II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II) | [Medium](#medium-level), [Array](#array), [Two Pointers](#two-pointers) |
 | [88. Merge Sorted Array](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/88.%20Merge%20Sorted%20Array) | [Easy](#easy-level), [Array](#array), [Two Pointers](#two-pointers), [Sorting](#sorting) |
 | [121. Best Time to Buy and Sell Stock](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock) | [Easy](#easy-level), [Array](#array), [Dynamic Programming](#dynamic-programming) |
 | [122. Best Time to Buy and Sell Stock II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II) | [Medium](#medium-level), [Array](#array), [Dynamic Programming](#dynamic-programming), [Greedy](#greedy) |
+| [128. Longest Consecutive Sequence](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/128.%20Longest%20Consecutive%20Sequence) | [Medium](#medium-level), [Array](#array), [Hash Table](#hash-table), [Union Find](#union-find) |
 | [134. Gas Station](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/134.%20Gas%20Station) | [Medium](#medium-level), [Array](#array), [Greedy](#greedy) |
 | [135. Candy](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/135.%20Candy) | [Hard](#hard-level), [Array](#array), [Greedy](#greedy) |
 | [167. Two Sum II - Input Array Is Sorted](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted) | [Medium](#medium-level), [Array](#array), [Two Pointers](#two-pointers), [Binary Search](#binary-search) |
 | [169. Majority Element](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/169.%20Majority%20Element) | [Easy](#easy-level), [Array](#array), [Hash Table](#hash-table), [Divide and Conquer](#divide-and-conquer), [Sorting](#sorting), [Counting](#counting) |
 | [189. Rotate Array](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/189.%20Rotate%20Array) | [Medium](#medium-level), [Array](#array), [Math](#math), [Two Pointers](#two-pointers) |
 | [209. Minimum Size Subarray Sum](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/209.%20Minimum%20Size%20Subarray%20Sum) | [Medium](#medium-level), [Array](#array), [Binary Search](#binary-search), [Sliding Window](#sliding-window), [Prefix Sum](#prefix-sum) |
+| [219. Contains Duplicate II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/219.%20Contains%20Duplicate%20II) | [Easy](#easy-level), [Array](#array), [Hash Table](#hash-table), [Sliding Window](#sliding-window) |
+| [228. Summary Ranges](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/228.%20Summary%20Ranges) | [Easy](#easy-level), [Array](#array) |
 | [238. Product of Array Except Self](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/238.%20Product%20of%20Array%20Except%20Self) | [Medium](#medium-level), [Array](#array), [Prefix Sum](#prefix-sum) |
 | [274. H-Index](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/274.%20H-Index) | [Medium](#medium-level), [Array](#array), [Sorting](#sorting), [Counting](#counting) |
 | [289. Game of Life](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/289.%20Game%20of%20Life) | [Medium](#medium-level), [Array](#array), [Matrix](#matrix) |
@@ -128,6 +138,7 @@ Let's play LeetCode when I'm bored
 |------|------|
 | [15. 3Sum](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/15.%203Sum) | [Medium](#medium-level), [Array](#array), [Two Pointers](#two-pointers), [Sorting](#sorting) |
 | [49. Group Anagrams](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/49.%20Group%20Anagrams) | [Medium](#medium-level), [Array](#array), [Hash Table](#hash-table), [String](#string), [Sorting](#sorting) |
+| [56. Merge Intervals](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/56.%20Merge%20Intervals) | [Medium](#medium-level), [Array](#array), [Sorting](#sorting) |
 | [88. Merge Sorted Array](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/88.%20Merge%20Sorted%20Array) | [Easy](#easy-level), [Array](#array), [Two Pointers](#two-pointers), [Sorting](#sorting) |
 | [169. Majority Element](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/169.%20Majority%20Element) | [Easy](#easy-level), [Array](#array), [Hash Table](#hash-table), [Divide and Conquer](#divide-and-conquer), [Sorting](#sorting), [Counting](#counting) |
 | [242. Valid Anagram](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/242.%20Valid%20Anagram) | [Easy](#easy-level), [Hash Table](#hash-table), [String](#string), [Sorting](#sorting) |
@@ -157,9 +168,11 @@ Let's play LeetCode when I'm bored
 | [49. Group Anagrams](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/49.%20Group%20Anagrams) | [Medium](#medium-level), [Array](#array), [Hash Table](#hash-table), [String](#string), [Sorting](#sorting) |
 | [73. Set Matrix Zeroes](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/73.%20Set%20Matrix%20Zeroes) | [Medium](#medium-level), [Array](#array), [Hash Table](#hash-table), [Matrix](#matrix) |
 | [76. Minimum Window Substring](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/76.%20Minimum%20Window%20Substring) | [Hard](#hard-level), [Hash Table](#hash-table), [String](#string), [Sliding Window](#sliding-window) |
+| [128. Longest Consecutive Sequence](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/128.%20Longest%20Consecutive%20Sequence) | [Medium](#medium-level), [Array](#array), [Hash Table](#hash-table), [Union Find](#union-find) |
 | [169. Majority Element](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/169.%20Majority%20Element) | [Easy](#easy-level), [Array](#array), [Hash Table](#hash-table), [Divide and Conquer](#divide-and-conquer), [Sorting](#sorting), [Counting](#counting) |
 | [202. Happy Number](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/202.%20Happy%20Number) | [Easy](#easy-level), [Hash Table](#hash-table), [Math](#math), [Two Pointers](#two-pointers) |
 | [205. Isomorphic Strings](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/205.%20Isomorphic%20Strings) | [Easy](#easy-level), [Hash Table](#hash-table), [String](#string) |
+| [219. Contains Duplicate II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/219.%20Contains%20Duplicate%20II) | [Easy](#easy-level), [Array](#array), [Hash Table](#hash-table), [Sliding Window](#sliding-window) |
 | [242. Valid Anagram](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/242.%20Valid%20Anagram) | [Easy](#easy-level), [Hash Table](#hash-table), [String](#string), [Sorting](#sorting) |
 | [290. Word Pattern](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/290.%20Word%20Pattern) | [Easy](#easy-level), [Hash Table](#hash-table), [String](#string) |
 | [380. Insert Delete GetRandom O(1)](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/300-399/380.%20Insert%20Delete%20GetRandom%20O(1)) | [Medium](#medium-level), [Array](#array), [Hash Table](#hash-table), [Math](#math), [Design](#design), [Randomized](#randomized) |
@@ -269,6 +282,7 @@ Let's play LeetCode when I'm bored
 | [30. Substring with Concatenation of All Words](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/30.%20Substring%20with%20Concatenation%20of%20All%20Words) | [Hard](#hard-level), [Hash Table](#hash-table), [String](#string), [Sliding Window](#sliding-window) |
 | [76. Minimum Window Substring](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/76.%20Minimum%20Window%20Substring) | [Hard](#hard-level), [Hash Table](#hash-table), [String](#string), [Sliding Window](#sliding-window) |
 | [209. Minimum Size Subarray Sum](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/209.%20Minimum%20Size%20Subarray%20Sum) | [Medium](#medium-level), [Array](#array), [Binary Search](#binary-search), [Sliding Window](#sliding-window), [Prefix Sum](#prefix-sum) |
+| [219. Contains Duplicate II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/219.%20Contains%20Duplicate%20II) | [Easy](#easy-level), [Array](#array), [Hash Table](#hash-table), [Sliding Window](#sliding-window) |
 ---
 
 ## Binary Search
@@ -278,3 +292,8 @@ Let's play LeetCode when I'm bored
 | [209. Minimum Size Subarray Sum](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/209.%20Minimum%20Size%20Subarray%20Sum) | [Medium](#medium-level), [Array](#array), [Binary Search](#binary-search), [Sliding Window](#sliding-window), [Prefix Sum](#prefix-sum) |
 ---
 
+## Union Find
+| __QUESTION__ | __TAG__ |
+|------|------|
+| [128. Longest Consecutive Sequence](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/128.%20Longest%20Consecutive%20Sequence) | [Medium](#medium-level), [Array](#array), [Hash Table](#hash-table), [Union Find](#union-find) |
+---
