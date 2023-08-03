@@ -4,9 +4,9 @@ Let's play LeetCode when I'm bored
 | __LEVEL__ | __COUNT__ |
 |:------:|:------:|
 | [Easy](#easy-level)     | 22 |
-| [Medium](#medium-level) | 33 |
-| [Hard](#hard-level)     | 6 |
-| __TOTAL__  | __61__ |
+| [Medium](#medium-level) | 37 |
+| [Hard](#hard-level)     | 7 |
+| __TOTAL__  | __66__ |
 ---
 
 ## Easy Level
@@ -45,6 +45,7 @@ Let's play LeetCode when I'm bored
 | [11. Container With Most Water](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/11.%20Container%20With%20Most%20Water) | [Array](#array), [Two Pointers](#two-pointers), [Greedy](#greedy) |
 | [12. Integer to Roman](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/12.%20Integer%20to%20Roman) | [Hash Table](#hash-table), [Math](#math), [String](#string) |
 | [15. 3Sum](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/15.%203Sum) | [Array](#array), [Two Pointers](#two-pointers), [Sorting](#sorting) |
+| [19. Remove Nth Node From End of List](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/19.%20Remove%20Nth%20Node%20From%20End%20of%20List) | [Linked List](#linked-list), [Two Pointers](#two-pointers) |
 | [36. Valid Sudoku](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/36.%20Valid%20Sudoku) | [Array](#array), [Hash Table](#hash-table), [Matrix](#matrix) |
 | [45. Jump Game II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/45.%20Jump%20Game%20II) | [Array](#array), [Dynamic Programming](#dynamic-programming), [Greedy](#greedy) |
 | [48. Rotate Image](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/48.%20Rotate%20Image) | [Array](#array), [Math](#math), [Matrix](#matrix) |
@@ -53,9 +54,12 @@ Let's play LeetCode when I'm bored
 | [55. Jump Game](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/55.%20Jump%20Game) | [Array](#array), [Dynamic Programming](#dynamic-programming), [Greedy](#greedy) |
 | [56. Merge Intervals](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/56.%20Merge%20Intervals) | [Array](#array), [Sorting](#sorting) |
 | [57. Insert Interval](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/57.%20Insert%20Interval) | [Array](#array) |
+| [61. Rotate List](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/61.%20Rotate%20List) | [Linked List](#linked-list), [Two Pointers](#two-pointers) |
 | [71. Simplify Path](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/71.%20Simplify%20Path) | [String](#string), [Stack](#stack) |
 | [73. Set Matrix Zeroes](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/73.%20Set%20Matrix%20Zeroes) | [Array](#array), [Hash Table](#hash-table), [Matrix](#matrix) |
 | [80. Remove Duplicates from Sorted Array II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II) | [Array](#array), [Two Pointers](#two-pointers) |
+| [82. Remove Duplicates from Sorted List II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/82.%20Remove%20Duplicates%20from%20Sorted%20List%20II) | [Linked List](#linked-list), [Two Pointers](#two-pointers) |
+| [92. Reverse Linked List II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/92.%20Reverse%20Linked%20List%20II) | [Linked List](#linked-list) |
 | [122. Best Time to Buy and Sell Stock II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II) | [Array](#array), [Dynamic Programming](#dynamic-programming), [Greedy](#greedy) |
 | [128. Longest Consecutive Sequence](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/128.%20Longest%20Consecutive%20Sequence) | [Array](#array), [Hash Table](#hash-table), [Union Find](#union-find) |
 | [134. Gas Station](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/134.%20Gas%20Station) | [Array](#array), [Greedy](#greedy) |
@@ -77,6 +81,7 @@ Let's play LeetCode when I'm bored
 ## Hard Level
 | __QUESTION__ | __TAG__ |
 |------|------|
+| [25. Reverse Nodes in k-Group](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/25.%20Reverse%20Nodes%20in%20k-Group) | [Linked List](#linked-list) |
 | [30. Substring with Concatenation of All Words](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/30.%20Substring%20with%20Concatenation%20of%20All%20Words) | [Hash Table](#hash-table), [String](#string), [Sliding Window](#sliding-window) |
 | [42. Trapping Rain Water](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/42.%20Trapping%20Rain%20Water) | [Array](#array), [Two Pointers](#two-pointers), [Dynamic Programming](#dynamic-programming), [Stack](#stack) |
 | [68. Text Justification](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/68.%20Text%20Justification) | [Array](#array), [String](#string) |
@@ -131,11 +136,14 @@ Let's play LeetCode when I'm bored
 |------|------|
 | [11. Container With Most Water](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/11.%20Container%20With%20Most%20Water) | [Medium](#medium-level), [Array](#array), [Two Pointers](#two-pointers), [Greedy](#greedy) |
 | [15. 3Sum](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/15.%203Sum) | [Medium](#medium-level), [Array](#array), [Two Pointers](#two-pointers), [Sorting](#sorting) |
+| [19. Remove Nth Node From End of List](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/19.%20Remove%20Nth%20Node%20From%20End%20of%20List) | [Medium](#medium-level), [Linked List](#linked-list), [Two Pointers](#two-pointers) |
 | [26. Remove Duplicates from Sorted Array](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/26.%20Remove%20Duplicates%20from%20Sorted%20Array) | [Easy](#easy-level), [Array](#array), [Two Pointers](#two-pointers) |
 | [27. Remove Element](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/27.%20Remove%20Element) | [Easy](#easy-level), [Array](#array), [Two Pointers](#two-pointers) |
 | [28. Find the Index of the First Occurrence in a String](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/28.%20Find%20the%20Index%20of%20the%20First%20Occurrence%20in%20a%20String) | [Easy](#easy-level), [Two Pointers](#two-pointers), [String](#string) |
 | [42. Trapping Rain Water](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/42.%20Trapping%20Rain%20Water) | [Hard](#hard-level), [Array](#array), [Two Pointers](#two-pointers), [Dynamic Programming](#dynamic-programming), [Stack](#stack) |
+| [61. Rotate List](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/61.%20Rotate%20List) | [Medium](#medium-level), [Linked List](#linked-list), [Two Pointers](#two-pointers) |
 | [80. Remove Duplicates from Sorted Array II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II) | [Medium](#medium-level), [Array](#array), [Two Pointers](#two-pointers) |
+| [82. Remove Duplicates from Sorted List II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/82.%20Remove%20Duplicates%20from%20Sorted%20List%20II) | [Medium](#medium-level), [Linked List](#linked-list), [Two Pointers](#two-pointers) |
 | [88. Merge Sorted Array](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/88.%20Merge%20Sorted%20Array) | [Easy](#easy-level), [Array](#array), [Two Pointers](#two-pointers), [Sorting](#sorting) |
 | [125. Valid Palindrome](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/125.%20Valid%20Palindrome) | [Easy](#easy-level), [Two Pointers](#two-pointers), [String](#string) |
 | [141. Linked List Cycle](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/141.%20Linked%20List%20Cycle) | [Easy](#easy-level), [Hash Table](#hash-table), [Linked List](#linked-list), [Two Pointers](#two-pointers) |
@@ -318,7 +326,12 @@ Let's play LeetCode when I'm bored
 | __QUESTION__ | __TAG__ |
 |------|------|
 | [2. Add Two Numbers](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/%202.%20Add%20Two%20Numbers) | [Medium](#medium-level), [Linked List](#linked-list), [Math](#math) |
+| [19. Remove Nth Node From End of List](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/19.%20Remove%20Nth%20Node%20From%20End%20of%20List) | [Medium](#medium-level), [Linked List](#linked-list), [Two Pointers](#two-pointers) |
 | [21. Merge Two Sorted Lists](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/21.%20Merge%20Two%20Sorted%20Lists) | [Easy](#easy-level), [Linked List](#linked-list) |
+| [25. Reverse Nodes in k-Group](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/25.%20Reverse%20Nodes%20in%20k-Group) | [Hard](#hard-level), [Linked List](#linked-list) |
+| [61. Rotate List](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/61.%20Rotate%20List) | [Medium](#medium-level), [Linked List](#linked-list), [Two Pointers](#two-pointers) |
+| [82. Remove Duplicates from Sorted List II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/82.%20Remove%20Duplicates%20from%20Sorted%20List%20II) | [Medium](#medium-level), [Linked List](#linked-list), [Two Pointers](#two-pointers) |
+| [92. Reverse Linked List II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/92.%20Reverse%20Linked%20List%20II) | [Medium](#medium-level), [Linked List](#linked-list) |
 | [138. Copy List with Random Pointer](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/138.%20Copy%20List%20with%20Random%20Pointer) | [Medium](#medium-level), [Hash Table](#hash-table), [Linked List](#linked-list) |
 | [141. Linked List Cycle](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/141.%20Linked%20List%20Cycle) | [Easy](#easy-level), [Hash Table](#hash-table), [Linked List](#linked-list), [Two Pointers](#two-pointers) |
 ---
