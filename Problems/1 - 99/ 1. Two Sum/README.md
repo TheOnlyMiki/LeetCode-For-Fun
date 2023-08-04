@@ -42,6 +42,6 @@
 
 ---
 # Solution
-```python:Problems/1 - 99/ 1. Two Sum/Solution.py
+```python:Solution.py
 
 ```
