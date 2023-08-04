@@ -42,5 +42,6 @@
 
 ---
 # Solution
-```python:Solution.py
+```python:https://github.com/TheOnlyMiki/LeetCode-For-Fun/edit/main/Problems/1%20-%2099/%201.%20Two%20Sum/Solution.py
+
 ```
