@@ -42,3 +42,29 @@
 <p>&nbsp;</p>
 <p><b data-stringify-type="bold">Follow-up:&nbsp;</b>If the string data type is mutable in your language, can&nbsp;you solve it&nbsp;<b data-stringify-type="bold">in-place</b>&nbsp;with&nbsp;<code data-stringify-type="code">O(1)</code>&nbsp;extra space?</p>
 </div></div>
+
+---
+<img src="Submit.png" width="700" height="215" />
+
+### Solution
+
+```python
+class Solution(object):
+    def reverseWords(self, s):
+        """
+        :type s: str
+        :rtype: str
+        """
+
+        s = s.split()[::-1]
+
+        """
+        output = ""
+        for word in s:
+            output += word + " "
+
+        return output[:-1]
+        """
+
+        return " ".join(s)
+```
