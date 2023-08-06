@@ -31,3 +31,25 @@
 	<li><code>0 &lt;= k &lt;= 10<sup>5</sup></code></li>
 </ul>
 </div></div>
+
+---
+<img src="Submit.png" width="700" height="215" />
+
+### Solution
+
+```python
+class Solution(object):
+    def containsNearbyDuplicate(self, nums, k):
+        """
+        :type nums: List[int]
+        :type k: int
+        :rtype: bool
+        """
+        count = {}
+        for i, num in enumerate(nums):
+            if num in count and i - count[num] <= k:
+                    return True
+            count[num] = i
+
+        return False
+```
