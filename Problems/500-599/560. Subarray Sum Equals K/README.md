@@ -23,3 +23,35 @@
 	<li><code>-10<sup>7</sup> &lt;= k &lt;= 10<sup>7</sup></code></li>
 </ul>
 </div></div>
+
+---
+<img src="Submit.png" width="700" height="215" />
+
+### Solution
+
+```python
+class Solution(object):
+    def subarraySum(self, nums, k):
+        """
+        :type nums: List[int]
+        :type k: int
+        :rtype: int
+        """
+
+        sums = {}
+        consum = 0
+        output = 0
+
+        for value in nums:
+            if consum in sums:
+                sums[consum] += 1
+            else:
+                sums[consum] = 1
+
+            consum += value
+
+            if consum - k in sums:
+                output += sums[consum - k]
+            
+        return output
+```
