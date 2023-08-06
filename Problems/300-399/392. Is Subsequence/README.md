@@ -24,3 +24,45 @@
 
 <p>&nbsp;</p>
 <strong>Follow up:</strong> Suppose there are lots of incoming <code>s</code>, say <code>s<sub>1</sub>, s<sub>2</sub>, ..., s<sub>k</sub></code> where <code>k &gt;= 10<sup>9</sup></code>, and you want to check one by one to see if <code>t</code> has its subsequence. In this scenario, how would you change your code?</div></div>
+
+---
+<img src="Submit.png" width="700" height="215" />
+
+### Solution
+
+```python
+class Solution(object):
+    def isSubsequence(self, s, t):
+        """
+        :type s: str
+        :type t: str
+        :rtype: bool
+        """
+        #Option 2
+        i = 0
+
+        try:
+            for c in t:
+                if s[i] == c:
+                    i+=1
+        except:
+            return True
+        
+        return i == len(s)
+
+        #Option 1
+        """
+        record = 0
+        n = len(t)
+
+        try:
+            for c in s:
+                record += t[record:].index(c) + 1
+                if record > n:
+                    return False
+        except:
+            return False
+        """
+
+        return True
+```
