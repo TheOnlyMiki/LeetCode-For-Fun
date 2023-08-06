@@ -39,3 +39,6 @@
 
 <p>&nbsp;</p>
 <strong>Follow-up:&nbsp;</strong>Can you come up with an algorithm that is less than&nbsp;<code>O(n<sup>2</sup>)&nbsp;</code>time complexity?</div></div>
+
+---
+<img src="Submit.png" width="600" height="600" />
