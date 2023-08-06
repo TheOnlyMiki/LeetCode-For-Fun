@@ -42,3 +42,27 @@
 	<li>The tests are generated such that there is <strong>exactly one solution</strong>.</li>
 </ul>
 </div></div>
+
+---
+<img src="Submit.png" width="700" height="215" />
+
+### Solution
+
+```python
+class Solution(object):
+    def twoSum(self, numbers, target):
+        """
+        :type numbers: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
+
+        diff = {}
+        
+        for i, number in enumerate(numbers):
+            if number in diff:
+                return [diff[number], i+1]
+            diff[target - number] = i+1
+
+        return None
+```
