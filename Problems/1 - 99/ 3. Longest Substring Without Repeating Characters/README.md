@@ -34,3 +34,33 @@ Notice that the answer must be a substring, "pwke" is a subsequence and not a su
 	<li><code>s</code> consists of English letters, digits, symbols and spaces.</li>
 </ul>
 </div></div>
+
+---
+<img src="Submit.png" width="700" height="215" />
+
+### Solution
+
+```python
+class Solution(object):
+    def lengthOfLongestSubstring(self, s):
+        """
+        :type s: str
+        :rtype: int
+        """
+
+        if len(s) == 0:
+            return 0
+
+        output = 1
+        i = 1
+        record = s[0]
+
+        for c in s:
+            if c in record:
+                record = record[record.index(c) + 1:] + c
+            else:
+                record += c
+                output = max(output, len(record))
+
+        return output
+```
