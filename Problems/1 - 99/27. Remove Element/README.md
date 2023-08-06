@@ -59,3 +59,32 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 	<li><code>0 &lt;= val &lt;= 100</code></li>
 </ul>
 </div></div>
+
+---
+<img src="Submit.png" width="700" height="215" />
+
+### Solution
+
+```python
+class Solution(object):
+    def removeElement(self, nums, val):
+        """
+        :type nums: List[int]
+        :type val: int
+        :rtype: int
+        """
+
+        nums_result = []
+        val_nums = 0
+        length_of_nums = len(nums)
+
+        for i in range(length_of_nums):
+            current_value = nums[i]
+            if current_value != val:
+                nums_result.append(current_value)
+            else:
+                val_nums+=1
+
+        nums[:] = nums_result
+        return length_of_nums - val_nums
+```
