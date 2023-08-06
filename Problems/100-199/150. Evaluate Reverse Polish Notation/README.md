@@ -52,3 +52,54 @@
 	<li><code>tokens[i]</code> is either an operator: <code>"+"</code>, <code>"-"</code>, <code>"*"</code>, or <code>"/"</code>, or an integer in the range <code>[-200, 200]</code>.</li>
 </ul>
 </div></div>
+
+---
+<img src="Submit.png" width="700" height="215" />
+
+### Solution
+
+```python
+class Solution(object):
+    def evalRPN(self, tokens):
+        """
+        :type tokens: List[str]
+        :rtype: int
+        """
+
+        stack = []
+        num = num_2 = None
+
+        for item in tokens:
+            if item == '+':
+                num = stack[-1]
+                stack.pop()
+                num_2 = stack[-1]
+                stack.pop()
+                stack.append(num_2 + num)
+
+            elif item == '-':
+                num = stack[-1]
+                stack.pop()
+                num_2 = stack[-1]
+                stack.pop()
+                stack.append(num_2 - num)
+
+            elif item == '*':
+                num = stack[-1]
+                stack.pop()
+                num_2 = stack[-1]
+                stack.pop()
+                stack.append(num_2 * num)
+
+            elif item == '/':
+                num = stack[-1]
+                stack.pop()
+                num_2 = stack[-1]
+                stack.pop()
+                stack.append(int(float(num_2) / num))
+
+            else:
+                stack.append(int(item))
+
+        return stack[0]
+```
