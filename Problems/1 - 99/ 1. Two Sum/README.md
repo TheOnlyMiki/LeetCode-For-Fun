@@ -41,4 +41,25 @@
 <strong>Follow-up:&nbsp;</strong>Can you come up with an algorithm that is less than&nbsp;<code>O(n<sup>2</sup>)&nbsp;</code>time complexity?</div></div>
 
 ---
-<img src="Submit.png" width="600" height="600" />
+<img src="Submit.png" width="700" height="215" />
+
+### Solution
+
+```python
+class Solution(object):
+    def twoSum(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
+
+        remain = {}
+        for i, num in enumerate(nums):
+            if target - num in remain:
+                remain = [remain[target - num], i]
+                break
+            remain[num] = i
+
+        return remain
+```
