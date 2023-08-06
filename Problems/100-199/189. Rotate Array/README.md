@@ -40,3 +40,26 @@ rotate 2 steps to the right: [3,99,-1,-100]
 	<li>Could you do it in-place with <code>O(1)</code> extra space?</li>
 </ul>
 </div></div>
+
+---
+<img src="Submit.png" width="700" height="215" />
+
+### Solution
+
+```python
+class Solution(object):
+    def rotate(self, nums, k):
+        """
+        :type nums: List[int]
+        :type k: int
+        :rtype: None Do not return anything, modify nums in-place instead.
+        """
+
+        #n = len(nums)
+        #k_new = k % n
+        shift_position = k % len(nums)
+
+        #return nums[-shift_position:] + nums[:-shift_position]
+
+        nums[:] = nums[-shift_position:] + nums[:-shift_position]
+```
