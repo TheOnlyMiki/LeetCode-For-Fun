@@ -25,3 +25,28 @@
 	<li><code>strs[i]</code> consists of lowercase English letters.</li>
 </ul>
 </div></div>
+
+---
+<img src="Submit.png" width="700" height="215" />
+
+### Solution
+
+```python
+class Solution(object):
+    def groupAnagrams(self, strs):
+        """
+        :type strs: List[str]
+        :rtype: List[List[str]]
+        """
+
+        count = {}
+
+        for word in strs:
+            temp = "".join(sorted(word))
+            if temp in count:
+                count[temp].append(word)
+            else:
+                count[temp] = [word]
+
+        return count.values()
+```
