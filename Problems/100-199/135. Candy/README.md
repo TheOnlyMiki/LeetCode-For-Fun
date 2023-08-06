@@ -37,3 +37,29 @@ The third child gets 1 candy because it satisfies the above two conditions.
 	<li><code>0 &lt;= ratings[i] &lt;= 2 * 10<sup>4</sup></code></li>
 </ul>
 </div></div>
+
+---
+<img src="Submit.png" width="700" height="215" />
+
+### Solution
+
+```python
+class Solution(object):
+    def candy(self, ratings):
+        """
+        :type ratings: List[int]
+        :rtype: int
+        """
+        n = len(ratings)
+        count = [1] * n
+        
+        for i in range(1, n):
+            if ratings[i] > ratings[i-1]:
+                count[i] = count[i-1] + 1
+        
+        for i in range(n-2, -1, -1):
+            if ratings[i] > ratings[i+1]:
+                count[i] = max(count[i], count[i+1] + 1)
+
+        return sum(count)
+```
