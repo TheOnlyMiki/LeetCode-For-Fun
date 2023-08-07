@@ -3,10 +3,10 @@ Let's play LeetCode when I'm bored
 
 | __LEVEL__ | __COUNT__ |
 |:------:|:------:|
-| [Easy](#easy-level)     | 28 |
-| [Medium](#medium-level) | 45 |
+| [Easy](#easy-level)     | 29 |
+| [Medium](#medium-level) | 49 |
 | [Hard](#hard-level)     | 8 |
-| __TOTAL__  | __81__ |
+| __TOTAL__  | __86__ |
 ---
 
 ## Easy Level
@@ -40,6 +40,7 @@ Let's play LeetCode when I'm bored
 | [290. Word Pattern](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/290.%20Word%20Pattern) | [Hash Table](#hash-table), [String](#string) |
 | [383. Ransom Note](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/300-399/383.%20Ransom%20Note) | [Hash Table](#hash-table), [String](#string), [Counting](#counting) |
 | [392. Is Subsequence](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/300-399/392.%20Is%20Subsequence) | [Two Pointers](#two-pointers), [String](#string), [Dynamic Programming](#dynamic-programming) |
+| [637. Average of Levels in Binary Tree](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/600-699/637.%20Average%20of%20Levels%20in%20Binary%20Tree) | [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
 --- 
 
 ## Medium Level
@@ -67,6 +68,8 @@ Let's play LeetCode when I'm bored
 | [82. Remove Duplicates from Sorted List II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/82.%20Remove%20Duplicates%20from%20Sorted%20List%20II) | [Linked List](#linked-list), [Two Pointers](#two-pointers) |
 | [86. Partition List](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/86.%20Partition%20List) | [Linked List](#linked-list), [Two Pointers](#two-pointers) |
 | [92. Reverse Linked List II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/92.%20Reverse%20Linked%20List%20II) | [Linked List](#linked-list) |
+| [102. Binary Tree Level Order Traversal](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/102.%20Binary%20Tree%20Level%20Order%20Traversal) | [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
+| [103. Binary Tree Zigzag Level Order Traversal](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/103.%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal) | [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
 | [105. Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/105.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal) | [Array](#array), [Hash Table](#hash-table), [Divide and Conquer](#divide-and-conquer), [Binary Tree](#binary-tree) |
 | [106. Construct Binary Tree from Inorder and Postorder Traversal](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/106.%20Construct%20Binary%20Tree%20from%20Inorder%20and%20Postorder%20Traversal) | [Array](#array), [Hash Table](#hash-table), [Divide and Conquer](#divide-and-conquer), [Binary Tree](#binary-tree) |
 | [114. Flatten Binary Tree to Linked List](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/114.%20Flatten%20Binary%20Tree%20to%20Linked%20List) | [Linked List](#linked-list), [Stack](#stack), [Depth-First Search](#depth-first-search), [Binary Tree](#binary-tree) |
@@ -83,7 +86,9 @@ Let's play LeetCode when I'm bored
 | [167. Two Sum II - Input Array Is Sorted](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted) | [Array](#array), [Two Pointers](#two-pointers), [Binary Search](#binary-search) |
 | [173. Binary Search Tree Iterator](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/173.%20Binary%20Search%20Tree%20Iterator) | [Stack](#stack), [Design](#design), [Binary Search](#binary-search), [Binary Tree](#binary-tree) |
 | [189. Rotate Array](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/189.%20Rotate%20Array) | [Array](#array), [Math](#math), [Two Pointers](#two-pointers) |
+| [199. Binary Tree Right Side View](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/199.%20Binary%20Tree%20Right%20Side%20View) | [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
 | [209. Minimum Size Subarray Sum](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/209.%20Minimum%20Size%20Subarray%20Sum) | [Array](#array), [Binary Search](#binary-search), [Sliding Window](#sliding-window), [Prefix Sum](#prefix-sum) |
+| [236. Lowest Common Ancestor of a Binary Tree](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree) | [Breadth-First Search](#breadth-first-search), [Depth-First Search](#depth-first-search), [Binary Tree](#binary-tree) |
 | [238. Product of Array Except Self](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/238.%20Product%20of%20Array%20Except%20Self) | [Array](#array), [Prefix Sum](#prefix-sum) |
 | [274. H-Index](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/274.%20H-Index) | [Array](#array), [Sorting](#sorting), [Counting](#counting) |
 | [289. Game of Life](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/289.%20Game%20of%20Life) | [Array](#array), [Matrix](#matrix) |
@@ -382,6 +387,8 @@ Let's play LeetCode when I'm bored
 |------|------|
 | [100. Same Tree](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/100.%20Same%20Tree) | [Easy](#easy-level), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
 | [101. Symmetric Tree](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/101.%20Symmetric%20Tree) | [Easy](#easy-level), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
+| [102. Binary Tree Level Order Traversal](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/102.%20Binary%20Tree%20Level%20Order%20Traversal) | [Medium](#medium-level), [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
+| [103. Binary Tree Zigzag Level Order Traversal](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/103.%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal) | [Medium](#medium-level), [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
 | [104. Maximum Depth of Binary Tree](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/104.%20Maximum%20Depth%20of%20Binary%20Tree) | [Easy](#easy-level), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
 | [105. Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/105.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal) | [Medium](#medium-level), [Array](#array), [Hash Table](#hash-table), [Divide and Conquer](#divide-and-conquer), [Binary Tree](#binary-tree) |
 | [106. Construct Binary Tree from Inorder and Postorder Traversal](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/106.%20Construct%20Binary%20Tree%20from%20Inorder%20and%20Postorder%20Traversal) | [Medium](#medium-level), [Array](#array), [Hash Table](#hash-table), [Divide and Conquer](#divide-and-conquer), [Binary Tree](#binary-tree) |
@@ -391,8 +398,11 @@ Let's play LeetCode when I'm bored
 | [124. Binary Tree Maximum Path Sum](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/124.%20Binary%20Tree%20Maximum%20Path%20Sum) | [Hard](#hard-level), [Dynamic Programming](#dynamic-programming), [Depth-First Search](#depth-first-search), [Binary Tree](#binary-tree) |
 | [129. Sum Root to Leaf Numbers](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/129.%20Sum%20Root%20to%20Leaf%20Numbers) | [Medium](#medium-level), [Depth-First Search](#depth-first-search), [Binary Tree](#binary-tree) |
 | [173. Binary Search Tree Iterator](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/173.%20Binary%20Search%20Tree%20Iterator) | [Medium](#medium-level), [Stack](#stack), [Design](#design), [Binary Search](#binary-search), [Binary Tree](#binary-tree) |
+| [199. Binary Tree Right Side View](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/199.%20Binary%20Tree%20Right%20Side%20View) | [Medium](#medium-level), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
 | [222. Count Complete Tree Nodes](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/222.%20Count%20Complete%20Tree%20Nodes) | [Easy](#easy-level), [Binary Search](#binary-search), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
 | [226. Invert Binary Tree](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/226.%20Invert%20Binary%20Tree) | [Easy](#easy-level), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
+| [236. Lowest Common Ancestor of a Binary Tree](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree) | [Medium](#medium-level), [Breadth-First Search](#breadth-first-search), [Depth-First Search](#depth-first-search), [Binary Tree](#binary-tree) |
+| [637. Average of Levels in Binary Tree](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/600-699/637.%20Average%20of%20Levels%20in%20Binary%20Tree) | [Easy](#easy-level), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
 ---
 
 ## Union Find
@@ -412,8 +422,11 @@ Let's play LeetCode when I'm bored
 | [117. Populating Next Right Pointers in Each Node II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/117.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node%20II) | [Medium](#medium-level), [Linked List](#linked-list), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
 | [124. Binary Tree Maximum Path Sum](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/124.%20Binary%20Tree%20Maximum%20Path%20Sum) | [Hard](#hard-level), [Dynamic Programming](#dynamic-programming), [Depth-First Search](#depth-first-search), [Binary Tree](#binary-tree) |
 | [129. Sum Root to Leaf Numbers](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/129.%20Sum%20Root%20to%20Leaf%20Numbers) | [Medium](#medium-level), [Depth-First Search](#depth-first-search), [Binary Tree](#binary-tree) |
+| [199. Binary Tree Right Side View](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/199.%20Binary%20Tree%20Right%20Side%20View) | [Medium](#medium-level), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
 | [222. Count Complete Tree Nodes](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/222.%20Count%20Complete%20Tree%20Nodes) | [Easy](#easy-level), [Binary Search](#binary-search), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
 | [226. Invert Binary Tree](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/226.%20Invert%20Binary%20Tree) | [Easy](#easy-level), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
+| [236. Lowest Common Ancestor of a Binary Tree](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree) | [Medium](#medium-level), [Breadth-First Search](#breadth-first-search), [Depth-First Search](#depth-first-search), [Binary Tree](#binary-tree) |
+| [637. Average of Levels in Binary Tree](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/600-699/637.%20Average%20of%20Levels%20in%20Binary%20Tree) | [Easy](#easy-level), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
 ---
 
 ## Breadth-First Search
@@ -421,9 +434,14 @@ Let's play LeetCode when I'm bored
 |------|------|
 | [100. Same Tree](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/100.%20Same%20Tree) | [Easy](#easy-level), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
 | [101. Symmetric Tree](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/101.%20Symmetric%20Tree) | [Easy](#easy-level), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
+| [102. Binary Tree Level Order Traversal](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/102.%20Binary%20Tree%20Level%20Order%20Traversal) | [Medium](#medium-level), [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
+| [103. Binary Tree Zigzag Level Order Traversal](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/103.%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal) | [Medium](#medium-level), [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
 | [104. Maximum Depth of Binary Tree](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/104.%20Maximum%20Depth%20of%20Binary%20Tree) | [Easy](#easy-level), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
 | [112. Path Sum](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/112.%20Path%20Sum) | [Easy](#easy-level), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
 | [117. Populating Next Right Pointers in Each Node II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/117.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node%20II) | [Medium](#medium-level), [Linked List](#linked-list), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
+| [199. Binary Tree Right Side View](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/199.%20Binary%20Tree%20Right%20Side%20View) | [Medium](#medium-level), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
 | [222. Count Complete Tree Nodes](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/222.%20Count%20Complete%20Tree%20Nodes) | [Easy](#easy-level), [Binary Search](#binary-search), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
 | [226. Invert Binary Tree](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/226.%20Invert%20Binary%20Tree) | [Easy](#easy-level), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
+| [236. Lowest Common Ancestor of a Binary Tree](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree) | [Medium](#medium-level), [Breadth-First Search](#breadth-first-search), [Depth-First Search](#depth-first-search), [Binary Tree](#binary-tree) |
+| [637. Average of Levels in Binary Tree](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/600-699/637.%20Average%20of%20Levels%20in%20Binary%20Tree) | [Easy](#easy-level), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
 ---
