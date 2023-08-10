@@ -4,9 +4,9 @@ Let's play LeetCode when I'm bored
 | __LEVEL__ | __COUNT__ |
 |:------:|:------:|
 | [Easy](#easy-level)     | 30 |
-| [Medium](#medium-level) | 58 |
-| [Hard](#hard-level)     | 8 |
-| __TOTAL__  | __96__ |
+| [Medium](#medium-level) | 61 |
+| [Hard](#hard-level)     | 10 |
+| __TOTAL__  | __101__ |
 ---
 
 ## Easy Level
@@ -53,6 +53,7 @@ Let's play LeetCode when I'm bored
 | [11. Container With Most Water](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/11.%20Container%20With%20Most%20Water) | [Array](#array), [Two Pointers](#two-pointers), [Greedy](#greedy) |
 | [12. Integer to Roman](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/12.%20Integer%20to%20Roman) | [Hash Table](#hash-table), [Math](#math), [String](#string) |
 | [15. 3Sum](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/15.%203Sum) | [Array](#array), [Two Pointers](#two-pointers), [Sorting](#sorting) |
+| [17. Letter Combinations of a Phone Number](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/17.%20Letter%20Combinations%20of%20a%20Phone%20Number) | [Hash Table](#hash-table), [String](#string), [Backtracking](#backtracking) |
 | [19. Remove Nth Node From End of List](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/19.%20Remove%20Nth%20Node%20From%20End%20of%20List) | [Linked List](#linked-list), [Two Pointers](#two-pointers) |
 | [36. Valid Sudoku](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/36.%20Valid%20Sudoku) | [Array](#array), [Hash Table](#hash-table), [Matrix](#matrix) |
 | [45. Jump Game II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/45.%20Jump%20Game%20II) | [Array](#array), [Dynamic Programming](#dynamic-programming), [Greedy](#greedy) |
@@ -93,8 +94,10 @@ Let's play LeetCode when I'm bored
 | [199. Binary Tree Right Side View](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/199.%20Binary%20Tree%20Right%20Side%20View) | [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
 | [200. Number of Islands](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/200.%20Number%20of%20Islands) | [Array](#array), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Union Find](#union-find), [Matrix](#matrix), [Graph](#graph) |
 | [207. Course Schedule](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/207.%20Course%20Schedule) | [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Graph](#graph) |
+| [208. Implement Trie (Prefix Tree)](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/208.%20Implement%20Trie%20(Prefix%20Tree)) | [Hash Table](#hash-table), [String](#string), [Design](#design), [Trie](#trie) |
 | [209. Minimum Size Subarray Sum](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/209.%20Minimum%20Size%20Subarray%20Sum) | [Array](#array), [Binary Search](#binary-search), [Sliding Window](#sliding-window), [Prefix Sum](#prefix-sum) |
 | [210. Course Schedule II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/210.%20Course%20Schedule%20II) | [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Graph](#graph) |
+| [211. Design Add and Search Words Data Structure](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/211.%20Design%20Add%20and%20Search%20Words%20Data%20Structure) | [String](#string), [Depth-First Search](#depth-first-search), [Design](#design), [Trie](#trie) |
 | [230. Kth Smallest Element in a BST](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/230.%20Kth%20Smallest%20Element%20in%20a%20BST) | [Depth-First Search](#depth-first-search), [Binary Tree](#binary-tree) |
 | [236. Lowest Common Ancestor of a Binary Tree](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree) | [Breadth-First Search](#breadth-first-search), [Depth-First Search](#depth-first-search), [Binary Tree](#binary-tree) |
 | [238. Product of Array Except Self](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/238.%20Product%20of%20Array%20Except%20Self) | [Array](#array), [Prefix Sum](#prefix-sum) |
@@ -116,7 +119,9 @@ Let's play LeetCode when I'm bored
 | [68. Text Justification](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/68.%20Text%20Justification) | [Array](#array), [String](#string) |
 | [76. Minimum Window Substring](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/76.%20Minimum%20Window%20Substring) | [Hash Table](#hash-table), [String](#string), [Sliding Window](#sliding-window) |
 | [124. Binary Tree Maximum Path Sum](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/124.%20Binary%20Tree%20Maximum%20Path%20Sum) | [Dynamic Programming](#dynamic-programming), [Depth-First Search](#depth-first-search), [Binary Tree](#binary-tree) |
+| [127. Word Ladder](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/127.%20Word%20Ladder) | [Hash Table](#hash-table), [String](#string), [Breadth-First Search](#breadth-first-search), [Graph](#graph) |
 | [135. Candy](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/135.%20Candy) | [Array](#array), [Greedy](#greedy) |
+| [212. Word Search II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/212.%20Word%20Search%20II) | [Array](#array), [String](#string), [Depth-First Search](#depth-first-search), [Backtracking](#backtracking), [Trie](#trie), [Matrix](#matrix) |
 | [224. Basic Calculator](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/224.%20Basic%20Calculator) | [Math](#math), [String](#string), [Stack](#stack) |
 ---
 
@@ -155,6 +160,7 @@ Let's play LeetCode when I'm bored
 | [189. Rotate Array](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/189.%20Rotate%20Array) | [Medium](#medium-level), [Array](#array), [Math](#math), [Two Pointers](#two-pointers) |
 | [200. Number of Islands](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/200.%20Number%20of%20Islands) | [Medium](#medium-level), [Array](#array), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Union Find](#union-find), [Matrix](#matrix), [Graph](#graph) |
 | [209. Minimum Size Subarray Sum](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/209.%20Minimum%20Size%20Subarray%20Sum) | [Medium](#medium-level), [Array](#array), [Binary Search](#binary-search), [Sliding Window](#sliding-window), [Prefix Sum](#prefix-sum) |
+| [212. Word Search II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/212.%20Word%20Search%20II) | [Hard](#hard-level), [Array](#array), [String](#string), [Depth-First Search](#depth-first-search), [Backtracking](#backtracking), [Trie](#trie), [Matrix](#matrix) |
 | [219. Contains Duplicate II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/219.%20Contains%20Duplicate%20II) | [Easy](#easy-level), [Array](#array), [Hash Table](#hash-table), [Sliding Window](#sliding-window) |
 | [228. Summary Ranges](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/228.%20Summary%20Ranges) | [Easy](#easy-level), [Array](#array) |
 | [238. Product of Array Except Self](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/238.%20Product%20of%20Array%20Except%20Self) | [Medium](#medium-level), [Array](#array), [Prefix Sum](#prefix-sum) |
@@ -222,6 +228,7 @@ Let's play LeetCode when I'm bored
 | [3. Longest Substring Without Repeating Characters](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/%203.%20Longest%20Substring%20Without%20Repeating%20Characters) | [Medium](#medium-level), [Hash Table](#hash-table), [String](#string), [Sliding Window](#sliding-window) |
 | [12. Integer to Roman](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/12.%20Integer%20to%20Roman) | [Medium](#medium-level), [Hash Table](#hash-table), [Math](#math), [String](#string) |
 | [13. Roman to Integer](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/13.%20Roman%20to%20Integer) | [Easy](#easy-level), [Hash Table](#hash-table), [Math](#math), [String](#string) |
+| [17. Letter Combinations of a Phone Number](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/17.%20Letter%20Combinations%20of%20a%20Phone%20Number) | [Medium](#medium-level), [Hash Table](#hash-table), [String](#string), [Backtracking](#backtracking) |
 | [30. Substring with Concatenation of All Words](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/30.%20Substring%20with%20Concatenation%20of%20All%20Words) | [Hard](#hard-level), [Hash Table](#hash-table), [String](#string), [Sliding Window](#sliding-window) |
 | [36. Valid Sudoku](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/36.%20Valid%20Sudoku) | [Medium](#medium-level), [Array](#array), [Hash Table](#hash-table), [Matrix](#matrix) |
 | [49. Group Anagrams](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/49.%20Group%20Anagrams) | [Medium](#medium-level), [Array](#array), [Hash Table](#hash-table), [String](#string), [Sorting](#sorting) |
@@ -229,6 +236,7 @@ Let's play LeetCode when I'm bored
 | [76. Minimum Window Substring](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/76.%20Minimum%20Window%20Substring) | [Hard](#hard-level), [Hash Table](#hash-table), [String](#string), [Sliding Window](#sliding-window) |
 | [105. Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/105.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal) | [Medium](#medium-level), [Array](#array), [Hash Table](#hash-table), [Divide and Conquer](#divide-and-conquer), [Binary Tree](#binary-tree) |
 | [106. Construct Binary Tree from Inorder and Postorder Traversal](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/106.%20Construct%20Binary%20Tree%20from%20Inorder%20and%20Postorder%20Traversal) | [Medium](#medium-level), [Array](#array), [Hash Table](#hash-table), [Divide and Conquer](#divide-and-conquer), [Binary Tree](#binary-tree) |
+| [127. Word Ladder](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/127.%20Word%20Ladder) | [Hard](#hard-level), [Hash Table](#hash-table), [String](#string), [Breadth-First Search](#breadth-first-search), [Graph](#graph) |
 | [128. Longest Consecutive Sequence](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/128.%20Longest%20Consecutive%20Sequence) | [Medium](#medium-level), [Array](#array), [Hash Table](#hash-table), [Union Find](#union-find) |
 | [133. Clone Graph](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/133.%20Clone%20Graph) | [Medium](#medium-level), [Hash Table](#hash-table), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Graph](#graph) |
 | [138. Copy List with Random Pointer](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/138.%20Copy%20List%20with%20Random%20Pointer) | [Medium](#medium-level), [Hash Table](#hash-table), [Linked List](#linked-list) |
@@ -237,6 +245,7 @@ Let's play LeetCode when I'm bored
 | [169. Majority Element](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/169.%20Majority%20Element) | [Easy](#easy-level), [Array](#array), [Hash Table](#hash-table), [Divide and Conquer](#divide-and-conquer), [Sorting](#sorting), [Counting](#counting) |
 | [202. Happy Number](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/202.%20Happy%20Number) | [Easy](#easy-level), [Hash Table](#hash-table), [Math](#math), [Two Pointers](#two-pointers) |
 | [205. Isomorphic Strings](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/205.%20Isomorphic%20Strings) | [Easy](#easy-level), [Hash Table](#hash-table), [String](#string) |
+| [208. Implement Trie (Prefix Tree)](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/208.%20Implement%20Trie%20(Prefix%20Tree)) | [Medium](#medium-level), [Hash Table](#hash-table), [String](#string), [Design](#design), [Trie](#trie) |
 | [219. Contains Duplicate II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/219.%20Contains%20Duplicate%20II) | [Easy](#easy-level), [Array](#array), [Hash Table](#hash-table), [Sliding Window](#sliding-window) |
 | [242. Valid Anagram](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/242.%20Valid%20Anagram) | [Easy](#easy-level), [Hash Table](#hash-table), [String](#string), [Sorting](#sorting) |
 | [290. Word Pattern](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/290.%20Word%20Pattern) | [Easy](#easy-level), [Hash Table](#hash-table), [String](#string) |
@@ -304,6 +313,7 @@ Let's play LeetCode when I'm bored
 | [12. Integer to Roman](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/12.%20Integer%20to%20Roman) | [Medium](#medium-level), [Hash Table](#hash-table), [Math](#math), [String](#string) |
 | [13. Roman to Integer](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/13.%20Roman%20to%20Integer) | [Easy](#easy-level), [Hash Table](#hash-table), [Math](#math), [String](#string) |
 | [14. Longest Common Prefix](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/14.%20Longest%20Common%20Prefix) | [Easy](#easy-level), [String](#string) |
+| [17. Letter Combinations of a Phone Number](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/17.%20Letter%20Combinations%20of%20a%20Phone%20Number) | [Medium](#medium-level), [Hash Table](#hash-table), [String](#string), [Backtracking](#backtracking) |
 | [20. Valid Parentheses](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/20.%20Valid%20Parentheses) | [Easy](#easy-level), [String](#string), [Stack](#stack) |
 | [28. Find the Index of the First Occurrence in a String](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/28.%20Find%20the%20Index%20of%20the%20First%20Occurrence%20in%20a%20String) | [Easy](#easy-level), [Two Pointers](#two-pointers), [String](#string) |
 | [30. Substring with Concatenation of All Words](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/30.%20Substring%20with%20Concatenation%20of%20All%20Words) | [Hard](#hard-level), [Hash Table](#hash-table), [String](#string), [Sliding Window](#sliding-window) |
@@ -313,8 +323,12 @@ Let's play LeetCode when I'm bored
 | [71. Simplify Path](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/71.%20Simplify%20Path) | [Medium](#medium-level), [String](#string), [Stack](#stack) |
 | [76. Minimum Window Substring](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/76.%20Minimum%20Window%20Substring) | [Hard](#hard-level), [Hash Table](#hash-table), [String](#string), [Sliding Window](#sliding-window) |
 | [125. Valid Palindrome](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/125.%20Valid%20Palindrome) | [Easy](#easy-level), [Two Pointers](#two-pointers), [String](#string) |
+| [127. Word Ladder](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/127.%20Word%20Ladder) | [Hard](#hard-level), [Hash Table](#hash-table), [String](#string), [Breadth-First Search](#breadth-first-search), [Graph](#graph) |
 | [151. Reverse Words in a String](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/151.%20Reverse%20Words%20in%20a%20String) | [Medium](#medium-level), [Two Pointers](#two-pointers), [String](#string) |
 | [205. Isomorphic Strings](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/205.%20Isomorphic%20Strings) | [Easy](#easy-level), [Hash Table](#hash-table), [String](#string) |
+| [208. Implement Trie (Prefix Tree)](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/208.%20Implement%20Trie%20(Prefix%20Tree)) | [Medium](#medium-level), [Hash Table](#hash-table), [String](#string), [Design](#design), [Trie](#trie) |
+| [211. Design Add and Search Words Data Structure](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/211.%20Design%20Add%20and%20Search%20Words%20Data%20Structure) | [Medium](#medium-level), [String](#string), [Depth-First Search](#depth-first-search), [Design](#design), [Trie](#trie) |
+| [212. Word Search II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/212.%20Word%20Search%20II) | [Hard](#hard-level), [Array](#array), [String](#string), [Depth-First Search](#depth-first-search), [Backtracking](#backtracking), [Trie](#trie), [Matrix](#matrix) |
 | [224. Basic Calculator](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/224.%20Basic%20Calculator) | [Hard](#hard-level), [Math](#math), [String](#string), [Stack](#stack) |
 | [242. Valid Anagram](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/242.%20Valid%20Anagram) | [Easy](#easy-level), [Hash Table](#hash-table), [String](#string), [Sorting](#sorting) |
 | [290. Word Pattern](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/290.%20Word%20Pattern) | [Easy](#easy-level), [Hash Table](#hash-table), [String](#string) |
@@ -329,6 +343,8 @@ Let's play LeetCode when I'm bored
 | [146. LRU Cache](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/146.%20LRU%20Cache) | [Medium](#medium-level), [Hash Table](#hash-table), [Linked List](#linked-list), [Design](#design) |
 | [155. Min Stack](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/155.%20Min%20Stack) | [Medium](#medium-level), [Stack](#stack), [Design](#design) |
 | [173. Binary Search Tree Iterator](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/173.%20Binary%20Search%20Tree%20Iterator) | [Medium](#medium-level), [Stack](#stack), [Design](#design), [Binary Search](#binary-search), [Binary Tree](#binary-tree) |
+| [208. Implement Trie (Prefix Tree)](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/208.%20Implement%20Trie%20(Prefix%20Tree)) | [Medium](#medium-level), [Hash Table](#hash-table), [String](#string), [Design](#design), [Trie](#trie) |
+| [211. Design Add and Search Words Data Structure](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/211.%20Design%20Add%20and%20Search%20Words%20Data%20Structure) | [Medium](#medium-level), [String](#string), [Depth-First Search](#depth-first-search), [Design](#design), [Trie](#trie) |
 | [380. Insert Delete GetRandom O(1)](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/300-399/380.%20Insert%20Delete%20GetRandom%20O(1)) | [Medium](#medium-level), [Array](#array), [Hash Table](#hash-table), [Math](#math), [Design](#design), [Randomized](#randomized) |
 ---
 
@@ -360,6 +376,7 @@ Let's play LeetCode when I'm bored
 | [73. Set Matrix Zeroes](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/73.%20Set%20Matrix%20Zeroes) | [Medium](#medium-level), [Array](#array), [Hash Table](#hash-table), [Matrix](#matrix) |
 | [130. Surrounded Regions](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/130.%20Surrounded%20Regions) | [Medium](#medium-level), [Array](#array), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Union Find](#union-find), [Matrix](#matrix), [Graph](#graph) |
 | [200. Number of Islands](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/200.%20Number%20of%20Islands) | [Medium](#medium-level), [Array](#array), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Union Find](#union-find), [Matrix](#matrix), [Graph](#graph) |
+| [212. Word Search II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/212.%20Word%20Search%20II) | [Hard](#hard-level), [Array](#array), [String](#string), [Depth-First Search](#depth-first-search), [Backtracking](#backtracking), [Trie](#trie), [Matrix](#matrix) |
 | [289. Game of Life](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/289.%20Game%20of%20Life) | [Medium](#medium-level), [Array](#array), [Matrix](#matrix) |
 | [909. Snakes and Ladders](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/900-999/909.%20Snakes%20and%20Ladders) | [Medium](#medium-level), [Array](#array), [Breadth-First Search](#breadth-first-search), [Matrix](#matrix), [Graph](#graph) |
 ---
@@ -453,6 +470,8 @@ Let's play LeetCode when I'm bored
 | [200. Number of Islands](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/200.%20Number%20of%20Islands) | [Medium](#medium-level), [Array](#array), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Union Find](#union-find), [Matrix](#matrix), [Graph](#graph) |
 | [207. Course Schedule](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/207.%20Course%20Schedule) | [Medium](#medium-level), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Graph](#graph) |
 | [210. Course Schedule II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/210.%20Course%20Schedule%20II) | [Medium](#medium-level), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Graph](#graph) |
+| [211. Design Add and Search Words Data Structure](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/211.%20Design%20Add%20and%20Search%20Words%20Data%20Structure) | [Medium](#medium-level), [String](#string), [Depth-First Search](#depth-first-search), [Design](#design), [Trie](#trie) |
+| [212. Word Search II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/212.%20Word%20Search%20II) | [Hard](#hard-level), [Array](#array), [String](#string), [Depth-First Search](#depth-first-search), [Backtracking](#backtracking), [Trie](#trie), [Matrix](#matrix) |
 | [222. Count Complete Tree Nodes](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/222.%20Count%20Complete%20Tree%20Nodes) | [Easy](#easy-level), [Binary Search](#binary-search), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
 | [226. Invert Binary Tree](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/226.%20Invert%20Binary%20Tree) | [Easy](#easy-level), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
 | [230. Kth Smallest Element in a BST](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/230.%20Kth%20Smallest%20Element%20in%20a%20BST) | [Medium](#medium-level), [Depth-First Search](#depth-first-search), [Binary Tree](#binary-tree) |
@@ -471,6 +490,7 @@ Let's play LeetCode when I'm bored
 | [104. Maximum Depth of Binary Tree](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/104.%20Maximum%20Depth%20of%20Binary%20Tree) | [Easy](#easy-level), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
 | [112. Path Sum](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/112.%20Path%20Sum) | [Easy](#easy-level), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
 | [117. Populating Next Right Pointers in Each Node II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/117.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node%20II) | [Medium](#medium-level), [Linked List](#linked-list), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
+| [127. Word Ladder](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/127.%20Word%20Ladder) | [Hard](#hard-level), [Hash Table](#hash-table), [String](#string), [Breadth-First Search](#breadth-first-search), [Graph](#graph) |
 | [130. Surrounded Regions](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/130.%20Surrounded%20Regions) | [Medium](#medium-level), [Array](#array), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Union Find](#union-find), [Matrix](#matrix), [Graph](#graph) |
 | [133. Clone Graph](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/133.%20Clone%20Graph) | [Medium](#medium-level), [Hash Table](#hash-table), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Graph](#graph) |
 | [199. Binary Tree Right Side View](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/199.%20Binary%20Tree%20Right%20Side%20View) | [Medium](#medium-level), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
@@ -489,6 +509,7 @@ Let's play LeetCode when I'm bored
 ## Graph
 | __QUESTION__ | __TAG__ |
 |------|------|
+| [127. Word Ladder](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/127.%20Word%20Ladder) | [Hard](#hard-level), [Hash Table](#hash-table), [String](#string), [Breadth-First Search](#breadth-first-search), [Graph](#graph) |
 | [130. Surrounded Regions](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/130.%20Surrounded%20Regions) | [Medium](#medium-level), [Array](#array), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Union Find](#union-find), [Matrix](#matrix), [Graph](#graph) |
 | [133. Clone Graph](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/133.%20Clone%20Graph) | [Medium](#medium-level), [Hash Table](#hash-table), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Graph](#graph) |
 | [200. Number of Islands](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/200.%20Number%20of%20Islands) | [Medium](#medium-level), [Array](#array), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Union Find](#union-find), [Matrix](#matrix), [Graph](#graph) |
@@ -496,4 +517,19 @@ Let's play LeetCode when I'm bored
 | [210. Course Schedule II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/210.%20Course%20Schedule%20II) | [Medium](#medium-level), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Graph](#graph) |
 | [433. Minimum Genetic Mutation](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/400-499/433.%20Minimum%20Genetic%20Mutation) | [Medium](#medium-level), [Hash Table](#hash-table), [String](#string), [Breadth-First Search](#breadth-first-search), [Graph](#graph) |
 | [909. Snakes and Ladders](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/900-999/909.%20Snakes%20and%20Ladders) | [Medium](#medium-level), [Array](#array), [Breadth-First Search](#breadth-first-search), [Matrix](#matrix), [Graph](#graph) |
+---
+
+## Trie
+| __QUESTION__ | __TAG__ |
+|------|------|
+| [208. Implement Trie (Prefix Tree)](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/208.%20Implement%20Trie%20(Prefix%20Tree)) | [Medium](#medium-level), [Hash Table](#hash-table), [String](#string), [Design](#design), [Trie](#trie) |
+| [211. Design Add and Search Words Data Structure](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/211.%20Design%20Add%20and%20Search%20Words%20Data%20Structure) | [Medium](#medium-level), [String](#string), [Depth-First Search](#depth-first-search), [Design](#design), [Trie](#trie) |
+| [212. Word Search II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/212.%20Word%20Search%20II) | [Hard](#hard-level), [Array](#array), [String](#string), [Depth-First Search](#depth-first-search), [Backtracking](#backtracking), [Trie](#trie), [Matrix](#matrix) |
+---
+
+## Backtracking
+| __QUESTION__ | __TAG__ |
+|------|------|
+| [17. Letter Combinations of a Phone Number](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/17.%20Letter%20Combinations%20of%20a%20Phone%20Number) | [Medium](#medium-level), [Hash Table](#hash-table), [String](#string), [Backtracking](#backtracking) |
+| [212. Word Search II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/212.%20Word%20Search%20II) | [Hard](#hard-level), [Array](#array), [String](#string), [Depth-First Search](#depth-first-search), [Backtracking](#backtracking), [Trie](#trie), [Matrix](#matrix) |
 ---
