@@ -3,16 +3,17 @@ Let's play LeetCode when I'm bored
 
 | __LEVEL__ | __COUNT__ |
 |:------:|:------:|
-| [Easy](#easy-level)     | 34 |
-| [Medium](#medium-level) | 77 |
+| [Easy](#easy-level)     | 37 |
+| [Medium](#medium-level) | 79 |
 | [Hard](#hard-level)     | 15 |
-| __TOTAL__  | __126__ |
+| __TOTAL__  | __131__ |
 ---
 
 ## Easy Level
 | __QUESTION__ | __TAG__ |
 |------|------|
 | [1. Two Sum](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/%201.%20Two%20Sum) | [Array](#array), [Hash Table](#hash-table) |
+| [9. Palindrome Number](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/%209.%20Palindrome%20Number) | [Math](#math) |
 | [13. Roman to Integer](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/13.%20Roman%20to%20Integer) | [Hash Table](#hash-table), [Math](#math), [String](#string) |
 | [14. Longest Common Prefix](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/14.%20Longest%20Common%20Prefix) | [String](#string) |
 | [20. Valid Parentheses](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/20.%20Valid%20Parentheses) | [String](#string), [Stack](#stack) |
@@ -31,9 +32,11 @@ Let's play LeetCode when I'm bored
 | [112. Path Sum](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/112.%20Path%20Sum) | [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
 | [121. Best Time to Buy and Sell Stock](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock) | [Array](#array), [Dynamic Programming](#dynamic-programming) |
 | [125. Valid Palindrome](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/125.%20Valid%20Palindrome) | [Two Pointers](#two-pointers), [String](#string) |
+| [136. Single Number](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/136.%20Single%20Number) | [Array](#array), [Bit Manipulation](#bit-manipulation) |
 | [141. Linked List Cycle](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/141.%20Linked%20List%20Cycle) | [Hash Table](#hash-table), [Linked List](#linked-list), [Two Pointers](#two-pointers) |
 | [169. Majority Element](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/169.%20Majority%20Element) | [Array](#array), [Hash Table](#hash-table), [Divide and Conquer](#divide-and-conquer), [Sorting](#sorting), [Counting](#counting) |
 | [190. Reverse Bits](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/190.%20Reverse%20Bits) | [Divide and Conquer](#divide-and-conquer), [Bit Manipulation](#bit-manipulation) |
+| [191. Number of 1 Bits](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/191.%20Number%20of%201%20Bits) | [Divide and Conquer](#divide-and-conquer), [Bit Manipulation](#bit-manipulation) |
 | [202. Happy Number](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/202.%20Happy%20Number) | [Hash Table](#hash-table), [Math](#math), [Two Pointers](#two-pointers) |
 | [205. Isomorphic Strings](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/205.%20Isomorphic%20Strings) | [Hash Table](#hash-table), [String](#string) |
 | [219. Contains Duplicate II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/219.%20Contains%20Duplicate%20II) | [Array](#array), [Hash Table](#hash-table), [Sliding Window](#sliding-window) |
@@ -96,6 +99,7 @@ Let's play LeetCode when I'm bored
 | [130. Surrounded Regions](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/130.%20Surrounded%20Regions) | [Array](#array), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Union Find](#union-find), [Matrix](#matrix), [Graph](#graph) |
 | [133. Clone Graph](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/133.%20Clone%20Graph) | [Hash Table](#hash-table), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Graph](#graph) |
 | [134. Gas Station](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/134.%20Gas%20Station) | [Array](#array), [Greedy](#greedy) |
+| [137. Single Number II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/137.%20Single%20Number%20II) | [Array](#array), [Bit Manipulation](#bit-manipulation) |
 | [138. Copy List with Random Pointer](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/138.%20Copy%20List%20with%20Random%20Pointer) | [Hash Table](#hash-table), [Linked List](#linked-list) |
 | [146. LRU Cache](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/146.%20LRU%20Cache) | [Hash Table](#hash-table), [Linked List](#linked-list), [Design](#design) |
 | [148. Sort List](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/148.%20Sort%20List) | [Linked List](#linked-list), [Two Pointers](#two-pointers), [Divide and Conquer](#divide-and-conquer), [Sorting](#sorting) |
@@ -109,6 +113,7 @@ Let's play LeetCode when I'm bored
 | [189. Rotate Array](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/189.%20Rotate%20Array) | [Array](#array), [Math](#math), [Two Pointers](#two-pointers) |
 | [199. Binary Tree Right Side View](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/199.%20Binary%20Tree%20Right%20Side%20View) | [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
 | [200. Number of Islands](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/200.%20Number%20of%20Islands) | [Array](#array), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Union Find](#union-find), [Matrix](#matrix), [Graph](#graph) |
+| [201. Bitwise AND of Numbers Range](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/201.%20Bitwise%20AND%20of%20Numbers%20Range) | [Bit Manipulation](#bit-manipulation) |
 | [207. Course Schedule](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/207.%20Course%20Schedule) | [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Graph](#graph) |
 | [208. Implement Trie (Prefix Tree)](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/208.%20Implement%20Trie%20(Prefix%20Tree)) | [Hash Table](#hash-table), [String](#string), [Design](#design), [Trie](#trie) |
 | [209. Minimum Size Subarray Sum](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/209.%20Minimum%20Size%20Subarray%20Sum) | [Array](#array), [Binary Search](#binary-search), [Sliding Window](#sliding-window), [Prefix Sum](#prefix-sum) |
@@ -190,6 +195,8 @@ Let's play LeetCode when I'm bored
 | [130. Surrounded Regions](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/130.%20Surrounded%20Regions) | [Medium](#medium-level), [Array](#array), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Union Find](#union-find), [Matrix](#matrix), [Graph](#graph) |
 | [134. Gas Station](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/134.%20Gas%20Station) | [Medium](#medium-level), [Array](#array), [Greedy](#greedy) |
 | [135. Candy](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/135.%20Candy) | [Hard](#hard-level), [Array](#array), [Greedy](#greedy) |
+| [136. Single Number](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/136.%20Single%20Number) | [Easy](#easy-level), [Array](#array), [Bit Manipulation](#bit-manipulation) |
+| [137. Single Number II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/137.%20Single%20Number%20II) | [Medium](#medium-level), [Array](#array), [Bit Manipulation](#bit-manipulation) |
 | [150. Evaluate Reverse Polish Notation](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/150.%20Evaluate%20Reverse%20Polish%20Notation) | [Medium](#medium-level), [Array](#array), [Math](#math), [Stack](#stack) |
 | [153. Find Minimum in Rotated Sorted Array](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array) | [Medium](#medium-level), [Array](#array), [Binary Search](#binary-search) |
 | [162. Find Peak Element](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/162.%20Find%20Peak%20Element) | [Medium](#medium-level), [Array](#array), [Binary Search](#binary-search) |
@@ -319,6 +326,7 @@ Let's play LeetCode when I'm bored
 | [148. Sort List](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/148.%20Sort%20List) | [Medium](#medium-level), [Linked List](#linked-list), [Two Pointers](#two-pointers), [Divide and Conquer](#divide-and-conquer), [Sorting](#sorting) |
 | [169. Majority Element](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/169.%20Majority%20Element) | [Easy](#easy-level), [Array](#array), [Hash Table](#hash-table), [Divide and Conquer](#divide-and-conquer), [Sorting](#sorting), [Counting](#counting) |
 | [190. Reverse Bits](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/190.%20Reverse%20Bits) | [Easy](#easy-level), [Divide and Conquer](#divide-and-conquer), [Bit Manipulation](#bit-manipulation) |
+| [191. Number of 1 Bits](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/191.%20Number%20of%201%20Bits) | [Easy](#easy-level), [Divide and Conquer](#divide-and-conquer), [Bit Manipulation](#bit-manipulation) |
 | [215. Kth Largest Element in an Array](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/215.%20Kth%20Largest%20Element%20in%20an%20Array) | [Medium](#medium-level), [Array](#array), [Divide and Conquer](#divide-and-conquer), [Sorting](#sorting), [Queue](#queue) |
 | [427. Construct Quad Tree](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/400-499/427.%20Construct%20Quad%20Tree) | [Medium](#medium-level), [Array](#array), [Divide and Conquer](#divide-and-conquer), [Matrix](#matrix) |
 | [918. Maximum Sum Circular Subarray](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/900-999/918.%20Maximum%20Sum%20Circular%20Subarray) | [Medium](#medium-level), [Array](#array), [Divide and Conquer](#divide-and-conquer), [Dynamic Programming](#dynamic-programming), [Queue](#queue) |
@@ -349,6 +357,7 @@ Let's play LeetCode when I'm bored
 | __QUESTION__ | __TAG__ |
 |------|------|
 | [2. Add Two Numbers](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/%202.%20Add%20Two%20Numbers) | [Medium](#medium-level), [Linked List](#linked-list), [Math](#math) |
+| [9. Palindrome Number](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/%209.%20Palindrome%20Number) | [Easy](#easy-level), [Math](#math) |
 | [12. Integer to Roman](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/12.%20Integer%20to%20Roman) | [Medium](#medium-level), [Hash Table](#hash-table), [Math](#math), [String](#string) |
 | [13. Roman to Integer](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/13.%20Roman%20to%20Integer) | [Easy](#easy-level), [Hash Table](#hash-table), [Math](#math), [String](#string) |
 | [48. Rotate Image](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/48.%20Rotate%20Image) | [Medium](#medium-level), [Array](#array), [Math](#math), [Matrix](#matrix) |
@@ -635,5 +644,9 @@ Let's play LeetCode when I'm bored
 | __QUESTION__ | __TAG__ |
 |------|------|
 | [67. Add Binary](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1%20-%2099/67.%20Add%20Binary) | [Easy](#easy-level), [Math](#math), [String](#string), [Bit Manipulation](#bit-manipulation) |
+| [136. Single Number](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/136.%20Single%20Number) | [Easy](#easy-level), [Array](#array), [Bit Manipulation](#bit-manipulation) |
+| [137. Single Number II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/137.%20Single%20Number%20II) | [Medium](#medium-level), [Array](#array), [Bit Manipulation](#bit-manipulation) |
 | [190. Reverse Bits](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/190.%20Reverse%20Bits) | [Easy](#easy-level), [Divide and Conquer](#divide-and-conquer), [Bit Manipulation](#bit-manipulation) |
+| [191. Number of 1 Bits](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/100-199/191.%20Number%20of%201%20Bits) | [Easy](#easy-level), [Divide and Conquer](#divide-and-conquer), [Bit Manipulation](#bit-manipulation) |
+| [201. Bitwise AND of Numbers Range](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/200-299/201.%20Bitwise%20AND%20of%20Numbers%20Range) | [Medium](#medium-level), [Bit Manipulation](#bit-manipulation) |
 ---
