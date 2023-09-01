@@ -4,6 +4,23 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
+        # Option 2
+        output = 0
+        previou_lower = nums[-1]
+        temp = None
+
+        for i in range(len(nums)-2, -1, -1):
+        #for num in nums[::-1]:
+            if previou_lower < nums[i]:
+                temp = (previou_lower + nums[i] - 1) / previou_lower
+                nums[i] /= temp
+                output += temp - 1
+            
+            previou_lower = nums[i]
+
+        return output
+        
+        # Option 1
         output = 0
         previou_lower = nums[-1]
         temp1 = temp2 = None
