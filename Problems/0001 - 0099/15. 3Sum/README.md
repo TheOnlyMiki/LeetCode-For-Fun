@@ -48,15 +48,61 @@ Notice that the order of the output and the order of the triplets does not matte
 
 ```python
 class Solution(object):
-    def positiveCheck(self, num):
-            if num > 0:
-                return True
-            return False
-
     def threeSum(self, nums):
         """
         :type nums: List[int]
         :rtype: List[List[int]]
+        """
+        # Option 2
+        length = len(nums)
+        nums = sorted(nums)
+
+        # *** For the lower N, it won't see the improvement ***
+        #bound_last_val = { n : nums[-1] * n for n in range(2, 4) }
+        last_val = nums[-1]
+        last_index = length-1
+
+        nums.append(1e6)
+        self.output, self.store = [], []
+
+        def get_N_Sum(target, left, n):
+            # *** For the lower N, it won't see the improvement ***
+            """
+            if target < nums[left] * n or target > bound_last_val[n]:
+                return
+            """
+            if target < nums[left] * n or target > last_val * n:
+                return
+
+            # Since the list had been sorted, then used two pointer method to find the result
+            if n == 2:
+                right = last_index
+                while left < right:
+                    temp = nums[left] + nums[right]
+                    if temp > target:
+                        right -= 1
+                    elif temp < target:
+                        left += 1
+                    else:
+                        temp = nums[left]
+                        self.output.append(self.store + [temp, nums[right]])
+                        left += 1
+                        while left < right and nums[left] == temp:
+                            left += 1
+                
+                return
+
+            for i in range(left, length - n + 1):
+                if nums[i] != nums[i-1]:
+                    self.store.append(nums[i])
+                    get_N_Sum( target - nums[i], i+1, n-1 )
+                    self.store.pop()
+        
+        get_N_Sum(0, 0, 3)
+
+        return self.output
+
+        # Option 1
         """
         count = {}
         output = set()
@@ -103,4 +149,5 @@ class Solution(object):
                         output.add(tuple(sorted([a,b,c])))
 
         return output
+        """
 ```
