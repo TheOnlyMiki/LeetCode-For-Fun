@@ -60,7 +60,7 @@ class Solution(object):
         last_val = nums[-1]
         last_index = length-1
         # *** For the lower N, it won't see the improvement ***
-        bound_last_val = { n : last_val * n for n in range(2, 3+1) }
+        #bound_last_val = { n : last_val * n for n in range(2, 3+1) }
 
         self.output, self.store = [], []
 
