@@ -9,11 +9,10 @@ class Solution(object):
         nums = sorted(nums)
 
         # *** For the lower N, it won't see the improvement ***
-        #bound_last_val = { n : nums[-1] * n for n in range(2, 4) }
+        #bound_last_val = { n : nums[-1] * n for n in range(2, 3+1) }
         last_val = nums[-1]
         last_index = length-1
 
-        nums.append(1e6)
         self.output, self.store = [], []
 
         def get_N_Sum(target, left, n):
@@ -27,7 +26,7 @@ class Solution(object):
 
             # Since the list had been sorted, then used two pointer method to find the result
             if n == 2:
-                right = last_index
+                right, temp = last_index, None
                 while left < right:
                     temp = nums[left] + nums[right]
                     if temp > target:
@@ -44,7 +43,7 @@ class Solution(object):
                 return
 
             for i in range(left, length - n + 1):
-                if nums[i] != nums[i-1]:
+                if nums[i] != nums[i-1] or i == left:
                     self.store.append(nums[i])
                     get_N_Sum( target - nums[i], i+1, n-1 )
                     self.store.pop()
