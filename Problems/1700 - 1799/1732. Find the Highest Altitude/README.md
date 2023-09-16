@@ -30,6 +30,7 @@
 	<li><code>-100 &lt;= gain[i] &lt;= 100</code></li>
 </ul>
 </div></div>
+
 ---
 <img src="Submit.png" width="700" height="215" />
 
