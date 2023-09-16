@@ -46,6 +46,7 @@ Node 0 with value 2 is the only node remaining after removing node 1.</pre>
 	<li><code>1 &lt;= Node.val &lt;= 10<sup>5</sup></code></li>
 </ul>
 </div></div>
+
 ---
 <img src="Submit.png" width="700" height="215" />
 
