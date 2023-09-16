@@ -38,6 +38,7 @@
 	<li>All the integers in <code>s</code> are in the range <code>[1, 300]</code>.</li>
 </ul>
 </div></div>
+
 ---
 <img src="Submit.png" width="700" height="215" />
 
