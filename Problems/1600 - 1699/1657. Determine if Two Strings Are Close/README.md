@@ -55,6 +55,7 @@ Apply Operation 2: "<u>baa</u>ccc" -&gt; "<u>abb</u>ccc"
 	<li><code>word1</code> and <code>word2</code> contain only lowercase English letters.</li>
 </ul>
 </div></div>
+
 ---
 <img src="Submit.png" width="700" height="215" />
 
