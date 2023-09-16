@@ -47,6 +47,7 @@ And in round 2, the third senator can just announce the victory since he is the 
 	<li><code>senate[i]</code> is either <code>'R'</code> or <code>'D'</code>.</li>
 </ul>
 </div></div>
+
 ---
 <img src="Submit.png" width="700" height="215" />
 
