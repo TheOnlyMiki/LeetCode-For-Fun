@@ -38,6 +38,7 @@
 	<li><code>asteroids[i] != 0</code></li>
 </ul>
 </div></div>
+
 ---
 <img src="Submit.png" width="700" height="215" />
 
