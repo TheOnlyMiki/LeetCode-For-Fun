@@ -46,6 +46,7 @@ There are no more stars, so we return "lecoe".</pre>
 	<li>The operation above can be performed on <code>s</code>.</li>
 </ul>
 </div></div>
+
 ---
 <img src="Submit.png" width="700" height="215" />
 
