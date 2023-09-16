@@ -38,6 +38,7 @@ recentCounter.ping(3002);  // requests = [1, <u>100</u>, <u>3001</u>, <u>3002</u
 	<li>At most <code>10<sup>4</sup></code> calls will be made to <code>ping</code>.</li>
 </ul>
 </div></div>
+
 ---
 <img src="Submit.png" width="700" height="215" />
 
