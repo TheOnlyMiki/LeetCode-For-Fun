@@ -36,6 +36,7 @@ Every integer in nums2 is present in nums1. Therefore, answer[1] = [].
 	<li><code>-1000 &lt;= nums1[i], nums2[i] &lt;= 1000</code></li>
 </ul>
 </div></div>
+
 ---
 <img src="Submit.png" width="700" height="215" />
 
