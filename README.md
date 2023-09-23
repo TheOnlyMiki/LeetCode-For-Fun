@@ -3,10 +3,10 @@ Let's play LeetCode when I'm bored
 
 | __LEVEL__ | __COUNT__ |
 |:------:|:------:|
-| [Easy](#easy-level)     | 72 |
-| [Medium](#medium-level) | 141 |
+| [Easy](#easy-level)     | 74 |
+| [Medium](#medium-level) | 144 |
 | [Hard](#hard-level)     | 24 |
-| __TOTAL__  | __237__ |
+| __TOTAL__  | __242__ |
 ---
 
 ## Easy Level
@@ -61,6 +61,7 @@ Let's play LeetCode when I'm bored
 | [338. Counting Bits](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0300%20-%200399/338.%20Counting%20Bits) | [Dynamic Programming](#dynamic-programming), [Bit Manipulation](#bit-manipulation) |
 | [344. Reverse String](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0300%20-%200399/344.%20Reverse%20String) | [Two Pointers](#two-pointers), [String](#string) |
 | [345. Reverse Vowels of a String](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0300%20-%200399/345.%20Reverse%20Vowels%20of%20a%20String) | [Two Pointers](#two-pointers), [String](#string) |
+| [374. Guess Number Higher or Lower](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0300%20-%200399/374.%20Guess%20Number%20Higher%20or%20Lower) | [Binary Search](#binary-search) |
 | [383. Ransom Note](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0300%20-%200399/383.%20Ransom%20Note) | [Hash Table](#hash-table), [String](#string), [Counting](#counting) |
 | [392. Is Subsequence](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0300%20-%200399/392.%20Is%20Subsequence) | [Two Pointers](#two-pointers), [String](#string), [Dynamic Programming](#dynamic-programming) |
 | [459. Repeated Substring Pattern](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0400%20-%200499/459.%20Repeated%20Substring%20Pattern) | [String](#string) |
@@ -77,6 +78,7 @@ Let's play LeetCode when I'm bored
 | [876. Middle of the Linked List](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0800%20-%200899/876.%20Middle%20of%20the%20Linked%20List) | [Linked List](#linked-list), [Two Pointers](#two-pointers) |
 | [933. Number of Recent Calls](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0900%20-%200999/933.%20Number%20of%20Recent%20Calls) | [Design](#design), [Queue](#queue) |
 | [1071. Greatest Common Divisor of Strings](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1000%20-%201099/1071.%20Greatest%20Common%20Divisor%20of%20Strings) | [Math](#math), [String](#string) |
+| [1137. N-th Tribonacci Number](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1100%20-%201199/1137.%20N-th%20Tribonacci%20Number) | [Math](#math), [Dynamic Programming](#dynamic-programming) |
 | [1207. Unique Number of Occurrences](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1200%20-%201299/1207.%20Unique%20Number%20of%20Occurrences) | [Array](#array), [Hash Table](#hash-table) |
 | [1431. Kids With the Greatest Number of Candies](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1400%20-%201499/1431.%20Kids%20With%20the%20Greatest%20Number%20of%20Candies) | [Array](#array) |
 | [1732. Find the Highest Altitude](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1700%20-%201799/1732.%20Find%20the%20Highest%20Altitude) | [Array](#array), [Prefix Sum](#prefix-sum) |
@@ -175,6 +177,7 @@ Let's play LeetCode when I'm bored
 | [210. Course Schedule II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0200%20-%200299/210.%20Course%20Schedule%20II) | [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Graph](#graph) |
 | [211. Design Add and Search Words Data Structure](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0200%20-%200299/211.%20Design%20Add%20and%20Search%20Words%20Data%20Structure) | [String](#string), [Depth-First Search](#depth-first-search), [Design](#design), [Trie](#trie) |
 | [215. Kth Largest Element in an Array](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0200%20-%200299/215.%20Kth%20Largest%20Element%20in%20an%20Array) | [Array](#array), [Divide and Conquer](#divide-and-conquer), [Sorting](#sorting), [Queue](#queue) |
+| [216. Combination Sum III](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0200%20-%200299/216.%20Combination%20Sum%20III) | [Array](#array), [Backtracking](#backtracking) |
 | [221. Maximal Square](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0200%20-%200299/221.%20Maximal%20Square) | [Array](#array), [Dynamic Programming](#dynamic-programming), [Matrix](#matrix) |
 | [230. Kth Smallest Element in a BST](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0200%20-%200299/230.%20Kth%20Smallest%20Element%20in%20a%20BST) | [Depth-First Search](#depth-first-search), [Binary Tree](#binary-tree) |
 | [236. Lowest Common Ancestor of a Binary Tree](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0200%20-%200299/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree) | [Breadth-First Search](#breadth-first-search), [Depth-First Search](#depth-first-search), [Binary Tree](#binary-tree) |
@@ -223,9 +226,11 @@ Let's play LeetCode when I'm bored
 | [1926. Nearest Exit from Entrance in Maze](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1900%20-%201999/1926.%20Nearest%20Exit%20from%20Entrance%20in%20Maze) | [Array](#array), [Breadth-First Search](#breadth-first-search), [Matrix](#matrix) |
 | [2095. Delete the Middle Node of a Linked List](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2000%20-%202099/2095.%20Delete%20the%20Middle%20Node%20of%20a%20Linked%20List) | [Two Pointers](#two-pointers), [Linked List](#linked-list) |
 | [2130. Maximum Twin Sum of a Linked List](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2100%20-%202199/2130.%20Maximum%20Twin%20Sum%20of%20a%20Linked%20List) | [Two Pointers](#two-pointers), [Stack](#stack), [Linked List](#linked-list) |
+| [2300. Successful Pairs of Spells and Potions](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2300%20-%202399/2300.%20Successful%20Pairs%20of%20Spells%20and%20Potions) | [Array](#array), [Two Pointers](#two-pointers), [Binary Search](#binary-search), [Sorting](#sorting) |
 | [2336. Smallest Number in Infinite Set](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2300%20-%202399/2336.%20Smallest%20Number%20in%20Infinite%20Set) | [Hash Table](#hash-table), [Design](#design), [Queue](#queue) |
 | [2369. Check if There is a Valid Partition For The Array](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2300%20-%202399/2369.%20Check%20if%20There%20is%20a%20Valid%20Partition%20For%20The%20Array) | [Array](#array), [Dynamic Programming](#dynamic-programming) |
 | [2390. Removing Stars From a String](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2300%20-%202399/2390.%20Removing%20Stars%20From%20a%20String) | [String](#string), [Stack](#stack) |
+| [2462. Total Cost to Hire K Workers](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2400%20-%202499/2462.%20Total%20Cost%20to%20Hire%20K%20Workers) | [Array](#array), [Two Pointers](#two-pointers), [Queue](#queue) |
 | [2542. Maximum Subsequence Score](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2500%20-%202599/2542.%20Maximum%20Subsequence%20Score) | [Array](#array), [Greedy](#greedy), [Sorting](#sorting), [Queue](#queue) |
 | [2616. Minimize the Maximum Difference of Pairs](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2600%20-%202699/2616.%20Minimize%20the%20Maximum%20Difference%20of%20Pairs) | [Array](#array), [Binary Search](#binary-search), [Greedy](#greedy) |
 | [2816. Double a Number Represented as a Linked List](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2800%20-%202899/2816.%20Double%20a%20Number%20Represented%20as%20a%20Linked%20List) | [Linked List](#linked-list), [Math](#math), [Stack](#stack) |
@@ -329,6 +334,7 @@ Let's play LeetCode when I'm bored
 | [209. Minimum Size Subarray Sum](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0200%20-%200299/209.%20Minimum%20Size%20Subarray%20Sum) | [Medium](#medium-level), [Array](#array), [Binary Search](#binary-search), [Sliding Window](#sliding-window), [Prefix Sum](#prefix-sum) |
 | [212. Word Search II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0200%20-%200299/212.%20Word%20Search%20II) | [Hard](#hard-level), [Array](#array), [String](#string), [Depth-First Search](#depth-first-search), [Backtracking](#backtracking), [Trie](#trie), [Matrix](#matrix) |
 | [215. Kth Largest Element in an Array](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0200%20-%200299/215.%20Kth%20Largest%20Element%20in%20an%20Array) | [Medium](#medium-level), [Array](#array), [Divide and Conquer](#divide-and-conquer), [Sorting](#sorting), [Queue](#queue) |
+| [216. Combination Sum III](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0200%20-%200299/216.%20Combination%20Sum%20III) | [Medium](#medium-level), [Array](#array), [Backtracking](#backtracking) |
 | [217. Contains Duplicate](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0200%20-%200299/217.%20Contains%20Duplicate) | [Easy](#easy-level), [Array](#array), [Hash Table](#hash-table), [Sorting](#sorting) |
 | [219. Contains Duplicate II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0200%20-%200299/219.%20Contains%20Duplicate%20II) | [Easy](#easy-level), [Array](#array), [Hash Table](#hash-table), [Sliding Window](#sliding-window) |
 | [221. Maximal Square](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0200%20-%200299/221.%20Maximal%20Square) | [Medium](#medium-level), [Array](#array), [Dynamic Programming](#dynamic-programming), [Matrix](#matrix) |
@@ -372,8 +378,10 @@ Let's play LeetCode when I'm bored
 | [1732. Find the Highest Altitude](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1700%20-%201799/1732.%20Find%20the%20Highest%20Altitude) | [Easy](#easy-level), [Array](#array), [Prefix Sum](#prefix-sum) |
 | [1926. Nearest Exit from Entrance in Maze](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1900%20-%201999/1926.%20Nearest%20Exit%20from%20Entrance%20in%20Maze) | [Medium](#medium-level), [Array](#array), [Breadth-First Search](#breadth-first-search), [Matrix](#matrix) |
 | [2215. Find the Difference of Two Arrays](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2200%20-%202299/2215.%20Find%20the%20Difference%20of%20Two%20Arrays) | [Easy](#easy-level), [Array](#array), [Hash Table](#hash-table) |
+| [2300. Successful Pairs of Spells and Potions](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2300%20-%202399/2300.%20Successful%20Pairs%20of%20Spells%20and%20Potions) | [Medium](#medium-level), [Array](#array), [Two Pointers](#two-pointers), [Binary Search](#binary-search), [Sorting](#sorting) |
 | [2366. Minimum Replacements to Sort the Array](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2300%20-%202399/2366.%20Minimum%20Replacements%20to%20Sort%20the%20Array) | [Hard](#hard-level), [Array](#array), [Math](#math), [Greedy](#greedy) |
 | [2369. Check if There is a Valid Partition For The Array](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2300%20-%202399/2369.%20Check%20if%20There%20is%20a%20Valid%20Partition%20For%20The%20Array) | [Medium](#medium-level), [Array](#array), [Dynamic Programming](#dynamic-programming) |
+| [2462. Total Cost to Hire K Workers](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2400%20-%202499/2462.%20Total%20Cost%20to%20Hire%20K%20Workers) | [Medium](#medium-level), [Array](#array), [Two Pointers](#two-pointers), [Queue](#queue) |
 | [2542. Maximum Subsequence Score](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2500%20-%202599/2542.%20Maximum%20Subsequence%20Score) | [Medium](#medium-level), [Array](#array), [Greedy](#greedy), [Sorting](#sorting), [Queue](#queue) |
 | [2616. Minimize the Maximum Difference of Pairs](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2600%20-%202699/2616.%20Minimize%20the%20Maximum%20Difference%20of%20Pairs) | [Medium](#medium-level), [Array](#array), [Binary Search](#binary-search), [Greedy](#greedy) |
 | [2817. Minimum Absolute Difference Between Elements With Constraint](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2800%20-%202899/2817.%20Minimum%20Absolute%20Difference%20Between%20Elements%20With%20Constraint) | [Medium](#medium-level), [Array](#array), [Binary Search](#binary-search) |
@@ -418,6 +426,8 @@ Let's play LeetCode when I'm bored
 | [1768. Merge Strings Alternately](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1700%20-%201799/1768.%20Merge%20Strings%20Alternately) | [Easy](#easy-level), [Two Pointers](#two-pointers), [String](#string) |
 | [2095. Delete the Middle Node of a Linked List](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2000%20-%202099/2095.%20Delete%20the%20Middle%20Node%20of%20a%20Linked%20List) | [Medium](#medium-level), [Two Pointers](#two-pointers), [Linked List](#linked-list) |
 | [2130. Maximum Twin Sum of a Linked List](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2100%20-%202199/2130.%20Maximum%20Twin%20Sum%20of%20a%20Linked%20List) | [Medium](#medium-level), [Two Pointers](#two-pointers), [Stack](#stack), [Linked List](#linked-list) |
+| [2300. Successful Pairs of Spells and Potions](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2300%20-%202399/2300.%20Successful%20Pairs%20of%20Spells%20and%20Potions) | [Medium](#medium-level), [Array](#array), [Two Pointers](#two-pointers), [Binary Search](#binary-search), [Sorting](#sorting) |
+| [2462. Total Cost to Hire K Workers](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2400%20-%202499/2462.%20Total%20Cost%20to%20Hire%20K%20Workers) | [Medium](#medium-level), [Array](#array), [Two Pointers](#two-pointers), [Queue](#queue) |
 ---
 
 ## Sorting
@@ -444,6 +454,7 @@ Let's play LeetCode when I'm bored
 | [767. Reorganize String](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0700%20-%200799/767.%20Reorganize%20String) | [Medium](#medium-level), [Hash Table](#hash-table), [String](#string), [Greedy](#greedy), [Sorting](#sorting), [Queue](#queue), [Counting](#counting) |
 | [1657. Determine if Two Strings Are Close](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1600%20-%201699/1657.%20Determine%20if%20Two%20Strings%20Are%20Close) | [Medium](#medium-level), [Hash Table](#hash-table), [String](#string), [Sorting](#sorting) |
 | [1679. Max Number of K-Sum Pairs](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1600%20-%201699/1679.%20Max%20Number%20of%20K-Sum%20Pairs) | [Medium](#medium-level), [Array](#array), [Hash Table](#hash-table), [Two Pointers](#two-pointers), [Sorting](#sorting) |
+| [2300. Successful Pairs of Spells and Potions](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2300%20-%202399/2300.%20Successful%20Pairs%20of%20Spells%20and%20Potions) | [Medium](#medium-level), [Array](#array), [Two Pointers](#two-pointers), [Binary Search](#binary-search), [Sorting](#sorting) |
 | [2542. Maximum Subsequence Score](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2500%20-%202599/2542.%20Maximum%20Subsequence%20Score) | [Medium](#medium-level), [Array](#array), [Greedy](#greedy), [Sorting](#sorting), [Queue](#queue) |
 ---
 
@@ -484,6 +495,7 @@ Let's play LeetCode when I'm bored
 | [712. Minimum ASCII Delete Sum for Two Strings](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0700%20-%200799/712.%20Minimum%20ASCII%20Delete%20Sum%20for%20Two%20Strings) | [Medium](#medium-level), [String](#string), [Dynamic Programming](#dynamic-programming) |
 | [918. Maximum Sum Circular Subarray](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0900%20-%200999/918.%20Maximum%20Sum%20Circular%20Subarray) | [Medium](#medium-level), [Array](#array), [Divide and Conquer](#divide-and-conquer), [Dynamic Programming](#dynamic-programming), [Queue](#queue) |
 | [920. Number of Music Playlists](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0900%20-%200999/920.%20Number%20of%20Music%20Playlists) | [Hard](#hard-level), [Math](#math), [Dynamic Programming](#dynamic-programming) |
+| [1137. N-th Tribonacci Number](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1100%20-%201199/1137.%20N-th%20Tribonacci%20Number) | [Easy](#easy-level), [Math](#math), [Dynamic Programming](#dynamic-programming) |
 | [1143. Longest Common Subsequence](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1100%20-%201199/1143.%20Longest%20Common%20Subsequence) | [Medium](#medium-level), [String](#string), [Dynamic Programming](#dynamic-programming) |
 | [1372. Longest ZigZag Path in a Binary Tree](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1300%20-%201399/1372.%20Longest%20ZigZag%20Path%20in%20a%20Binary%20Tree) | [Medium](#medium-level), [Dynamic Programming](#dynamic-programming), [Depth-First Search](#depth-first-search), [Binary Tree](#binary-tree) |
 | [1493. Longest Subarray of 1's After Deleting One Element](https://github.com/TheOnlyMiki/LeetCode-For-Fun/blob/main/Problems/1400%20-%201499/1493.%20Longest%20Subarray%20of%201's%20After%20Deleting%20One%20Element/README.md) | [Medium](#medium-level), [Array](#array), [Dynamic Programming](#dynamic-programming), [Sliding Window](#sliding-window) |
@@ -620,6 +632,7 @@ Let's play LeetCode when I'm bored
 | [875. Koko Eating Bananas](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0800%20-%200899/875.%20Koko%20Eating%20Bananas) | [Medium](#medium-level), [Array](#array), [Binary Search](#binary-search), [Math](#math) |
 | [920. Number of Music Playlists](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0900%20-%200999/920.%20Number%20of%20Music%20Playlists) | [Hard](#hard-level), [Math](#math), [Dynamic Programming](#dynamic-programming) |
 | [1071. Greatest Common Divisor of Strings](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1000%20-%201099/1071.%20Greatest%20Common%20Divisor%20of%20Strings) | [Easy](#easy-level), [Math](#math), [String](#string) |
+| [1137. N-th Tribonacci Number](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1100%20-%201199/1137.%20N-th%20Tribonacci%20Number) | [Easy](#easy-level), [Math](#math), [Dynamic Programming](#dynamic-programming) |
 | [2366. Minimum Replacements to Sort the Array](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2300%20-%202399/2366.%20Minimum%20Replacements%20to%20Sort%20the%20Array) | [Hard](#hard-level), [Array](#array), [Math](#math), [Greedy](#greedy) |
 | [2806. Account Balance After Rounded Purchase](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2800%20-%202899/2806.%20Account%20Balance%20After%20Rounded%20Purchase) | [Easy](#easy-level), [Math](#math) |
 | [2816. Double a Number Represented as a Linked List](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2800%20-%202899/2816.%20Double%20a%20Number%20Represented%20as%20a%20Linked%20List) | [Medium](#medium-level), [Linked List](#linked-list), [Math](#math), [Stack](#stack) |
@@ -747,6 +760,7 @@ Let's play LeetCode when I'm bored
 | [918. Maximum Sum Circular Subarray](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0900%20-%200999/918.%20Maximum%20Sum%20Circular%20Subarray) | [Medium](#medium-level), [Array](#array), [Divide and Conquer](#divide-and-conquer), [Dynamic Programming](#dynamic-programming), [Queue](#queue) |
 | [933. Number of Recent Calls](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0900%20-%200999/933.%20Number%20of%20Recent%20Calls) | [Easy](#easy-level), [Design](#design), [Queue](#queue) |
 | [2336. Smallest Number in Infinite Set](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2300%20-%202399/2336.%20Smallest%20Number%20in%20Infinite%20Set) | [Medium](#medium-level), [Hash Table](#hash-table), [Design](#design), [Queue](#queue) |
+| [2462. Total Cost to Hire K Workers](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2400%20-%202499/2462.%20Total%20Cost%20to%20Hire%20K%20Workers) | [Medium](#medium-level), [Array](#array), [Two Pointers](#two-pointers), [Queue](#queue) |
 | [2542. Maximum Subsequence Score](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2500%20-%202599/2542.%20Maximum%20Subsequence%20Score) | [Medium](#medium-level), [Array](#array), [Greedy](#greedy), [Sorting](#sorting), [Queue](#queue) |
 ---
 
@@ -837,11 +851,13 @@ Let's play LeetCode when I'm bored
 | [268. Missing Number](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0200%20-%200299/268.%20Missing%20Number) | [Easy](#easy-level), [Array](#array), [Hash Table](#hash-table), [Math](#math), [Binary Search](#binary-search), [Bit Manipulation](#bit-manipulation), [Sorting](#sorting) |
 | [287. Find the Duplicate Number](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0200%20-%200299/287.%20Find%20the%20Duplicate%20Number) | [Medium](#medium-level), [Array](#array), [Two Pointers](#two-pointers), [Binary Search](#binary-search), [Bit Manipulation](#bit-manipulation) |
 | [300. Longest Increasing Subsequence](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0300%20-%200399/300.%20Longest%20Increasing%20Subsequence) | [Medium](#medium-level), [Array](#array), [Dynamic Programming](#dynamic-programming), [Binary Search](#binary-search) |
+| [374. Guess Number Higher or Lower](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0300%20-%200399/374.%20Guess%20Number%20Higher%20or%20Lower) | [Easy](#easy-level), [Binary Search](#binary-search) |
 | [450. Delete Node in a BST](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0400%20-%200499/450.%20Delete%20Node%20in%20a%20BST) | [Medium](#medium-level), [Binary Search](#binary-search), [Binary Tree](#binary-tree) |
 | [700. Search in a Binary Search Tree](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0700%20-%200799/700.%20Search%20in%20a%20Binary%20Search%20Tree) | [Easy](#easy-level), [Binary Search](#binary-search), [Binary Tree](#binary-tree) |
 | [704. Binary Search](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0700%20-%200799/704.%20Binary%20Search) | [Easy](#easy-level), [Array](#array), [Binary Search](#binary-search) |
 | [875. Koko Eating Bananas](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0800%20-%200899/875.%20Koko%20Eating%20Bananas) | [Medium](#medium-level), [Array](#array), [Binary Search](#binary-search), [Math](#math) |
 | [1004. Max Consecutive Ones III](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1000%20-%201099/1004.%20Max%20Consecutive%20Ones%20III) | [Medium](#medium-level), [Array](#array), [Binary Search](#binary-search), [Sliding Window](#sliding-window), [Prefix Sum](#prefix-sum) |
+| [2300. Successful Pairs of Spells and Potions](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2300%20-%202399/2300.%20Successful%20Pairs%20of%20Spells%20and%20Potions) | [Medium](#medium-level), [Array](#array), [Two Pointers](#two-pointers), [Binary Search](#binary-search), [Sorting](#sorting) |
 | [2616. Minimize the Maximum Difference of Pairs](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2600%20-%202699/2616.%20Minimize%20the%20Maximum%20Difference%20of%20Pairs) | [Medium](#medium-level), [Array](#array), [Binary Search](#binary-search), [Greedy](#greedy) |
 | [2817. Minimum Absolute Difference Between Elements With Constraint](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2800%20-%202899/2817.%20Minimum%20Absolute%20Difference%20Between%20Elements%20With%20Constraint) | [Medium](#medium-level), [Array](#array), [Binary Search](#binary-search) |
 ---
@@ -1002,6 +1018,7 @@ Let's play LeetCode when I'm bored
 | [77. Combinations](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0001%20-%200099/77.%20Combinations) | [Medium](#medium-level), [Backtracking](#backtracking) |
 | [79. Word Search](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0001%20-%200099/79.%20Word%20Search) | [Medium](#medium-level), [Array](#array), [Matrix](#matrix), [Backtracking](#backtracking) |
 | [212. Word Search II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0200%20-%200299/212.%20Word%20Search%20II) | [Hard](#hard-level), [Array](#array), [String](#string), [Depth-First Search](#depth-first-search), [Backtracking](#backtracking), [Trie](#trie), [Matrix](#matrix) |
+| [216. Combination Sum III](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0200%20-%200299/216.%20Combination%20Sum%20III) | [Medium](#medium-level), [Array](#array), [Backtracking](#backtracking) |
 ---
 
 ## Bit Manipulation
