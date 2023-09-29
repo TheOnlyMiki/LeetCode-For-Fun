@@ -4,9 +4,9 @@ Let's play LeetCode when I'm bored
 | __LEVEL__ | __COUNT__ |
 |:------:|:------:|
 | [Easy](#easy-level)     | 75 |
-| [Medium](#medium-level) | 151 |
+| [Medium](#medium-level) | 153 |
 | [Hard](#hard-level)     | 24 |
-| __TOTAL__  | __250__ |
+| __TOTAL__  | __252__ |
 ---
 
 ## Easy Level
@@ -228,6 +228,7 @@ Let's play LeetCode when I'm bored
 | [1372. Longest ZigZag Path in a Binary Tree](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1300%20-%201399/1372.%20Longest%20ZigZag%20Path%20in%20a%20Binary%20Tree) | [Dynamic Programming](#dynamic-programming), [Depth-First Search](#depth-first-search), [Binary Tree](#binary-tree) |
 | [1448. Count Good Nodes in Binary Tree](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1400%20-%201499/1448.%20Count%20Good%20Nodes%20in%20Binary%20Tree) | [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
 | [1456. Maximum Number of Vowels in a Substring of Given Length](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1400%20-%201499/1456.%20Maximum%20Number%20of%20Vowels%20in%20a%20Substring%20of%20Given%20Length) | [String](#string), [Sliding Window](#sliding-window) |
+| [1466. Reorder Routes to Make All Paths Lead to the City Zero](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1400%20-%201499/1466.%20Reorder%20Routes%20to%20Make%20All%20Paths%20Lead%20to%20the%20City%20Zero) | [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Graph](#graph) |
 | [1493. Longest Subarray of 1's After Deleting One Element](https://github.com/TheOnlyMiki/LeetCode-For-Fun/blob/main/Problems/1400%20-%201499/1493.%20Longest%20Subarray%20of%201's%20After%20Deleting%20One%20Element/README.md) | [Array](#array), [Dynamic Programming](#dynamic-programming), [Sliding Window](#sliding-window) |
 | [1657. Determine if Two Strings Are Close](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1600%20-%201699/1657.%20Determine%20if%20Two%20Strings%20Are%20Close) | [Hash Table](#hash-table), [String](#string), [Sorting](#sorting) |
 | [1679. Max Number of K-Sum Pairs](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1600%20-%201699/1679.%20Max%20Number%20of%20K-Sum%20Pairs) | [Array](#array), [Hash Table](#hash-table), [Two Pointers](#two-pointers), [Sorting](#sorting) |
@@ -236,6 +237,7 @@ Let's play LeetCode when I'm bored
 | [2130. Maximum Twin Sum of a Linked List](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2100%20-%202199/2130.%20Maximum%20Twin%20Sum%20of%20a%20Linked%20List) | [Two Pointers](#two-pointers), [Stack](#stack), [Linked List](#linked-list) |
 | [2300. Successful Pairs of Spells and Potions](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2300%20-%202399/2300.%20Successful%20Pairs%20of%20Spells%20and%20Potions) | [Array](#array), [Two Pointers](#two-pointers), [Binary Search](#binary-search), [Sorting](#sorting) |
 | [2336. Smallest Number in Infinite Set](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2300%20-%202399/2336.%20Smallest%20Number%20in%20Infinite%20Set) | [Hash Table](#hash-table), [Design](#design), [Queue](#queue) |
+| [2352. Equal Row and Column Pairs](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2300%20-%202399/2352.%20Equal%20Row%20and%20Column%20Pairs) | [Array](#array), [Hash Table](#hash-table), [Matrix](#matrix) |
 | [2369. Check if There is a Valid Partition For The Array](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2300%20-%202399/2369.%20Check%20if%20There%20is%20a%20Valid%20Partition%20For%20The%20Array) | [Array](#array), [Dynamic Programming](#dynamic-programming) |
 | [2390. Removing Stars From a String](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2300%20-%202399/2390.%20Removing%20Stars%20From%20a%20String) | [String](#string), [Stack](#stack) |
 | [2462. Total Cost to Hire K Workers](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2400%20-%202499/2462.%20Total%20Cost%20to%20Hire%20K%20Workers) | [Array](#array), [Two Pointers](#two-pointers), [Queue](#queue) |
@@ -392,6 +394,7 @@ Let's play LeetCode when I'm bored
 | [1926. Nearest Exit from Entrance in Maze](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1900%20-%201999/1926.%20Nearest%20Exit%20from%20Entrance%20in%20Maze) | [Medium](#medium-level), [Array](#array), [Breadth-First Search](#breadth-first-search), [Matrix](#matrix) |
 | [2215. Find the Difference of Two Arrays](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2200%20-%202299/2215.%20Find%20the%20Difference%20of%20Two%20Arrays) | [Easy](#easy-level), [Array](#array), [Hash Table](#hash-table) |
 | [2300. Successful Pairs of Spells and Potions](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2300%20-%202399/2300.%20Successful%20Pairs%20of%20Spells%20and%20Potions) | [Medium](#medium-level), [Array](#array), [Two Pointers](#two-pointers), [Binary Search](#binary-search), [Sorting](#sorting) |
+| [2352. Equal Row and Column Pairs](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2300%20-%202399/2352.%20Equal%20Row%20and%20Column%20Pairs) | [Medium](#medium-level), [Array](#array), [Hash Table](#hash-table), [Matrix](#matrix) |
 | [2366. Minimum Replacements to Sort the Array](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2300%20-%202399/2366.%20Minimum%20Replacements%20to%20Sort%20the%20Array) | [Hard](#hard-level), [Array](#array), [Math](#math), [Greedy](#greedy) |
 | [2369. Check if There is a Valid Partition For The Array](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2300%20-%202399/2369.%20Check%20if%20There%20is%20a%20Valid%20Partition%20For%20The%20Array) | [Medium](#medium-level), [Array](#array), [Dynamic Programming](#dynamic-programming) |
 | [2462. Total Cost to Hire K Workers](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2400%20-%202499/2462.%20Total%20Cost%20to%20Hire%20K%20Workers) | [Medium](#medium-level), [Array](#array), [Two Pointers](#two-pointers), [Queue](#queue) |
@@ -568,6 +571,7 @@ Let's play LeetCode when I'm bored
 | [1679. Max Number of K-Sum Pairs](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1600%20-%201699/1679.%20Max%20Number%20of%20K-Sum%20Pairs) | [Medium](#medium-level), [Array](#array), [Hash Table](#hash-table), [Two Pointers](#two-pointers), [Sorting](#sorting) |
 | [2215. Find the Difference of Two Arrays](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2200%20-%202299/2215.%20Find%20the%20Difference%20of%20Two%20Arrays) | [Easy](#easy-level), [Array](#array), [Hash Table](#hash-table) |
 | [2336. Smallest Number in Infinite Set](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2300%20-%202399/2336.%20Smallest%20Number%20in%20Infinite%20Set) | [Medium](#medium-level), [Hash Table](#hash-table), [Design](#design), [Queue](#queue) |
+| [2352. Equal Row and Column Pairs](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2300%20-%202399/2352.%20Equal%20Row%20and%20Column%20Pairs) | [Medium](#medium-level), [Array](#array), [Hash Table](#hash-table), [Matrix](#matrix) |
 ---
 
 ## Divide and Conquer
@@ -812,6 +816,7 @@ Let's play LeetCode when I'm bored
 | [909. Snakes and Ladders](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0900%20-%200999/909.%20Snakes%20and%20Ladders) | [Medium](#medium-level), [Array](#array), [Breadth-First Search](#breadth-first-search), [Matrix](#matrix), [Graph](#graph) |
 | [994. Rotting Oranges](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0900%20-%200999/994.%20Rotting%20Oranges) | [Medium](#medium-level), [Array](#array), [Breadth-First Search](#breadth-first-search), [Matrix](#matrix) |
 | [1926. Nearest Exit from Entrance in Maze](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1900%20-%201999/1926.%20Nearest%20Exit%20from%20Entrance%20in%20Maze) | [Medium](#medium-level), [Array](#array), [Breadth-First Search](#breadth-first-search), [Matrix](#matrix) |
+| [2352. Equal Row and Column Pairs](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/2300%20-%202399/2352.%20Equal%20Row%20and%20Column%20Pairs) | [Medium](#medium-level), [Array](#array), [Hash Table](#hash-table), [Matrix](#matrix) |
 ---
 
 ## Sliding Window
@@ -971,6 +976,7 @@ Let's play LeetCode when I'm bored
 | [1161. Maximum Level Sum of a Binary Tree](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1100%20-%201199/1161.%20Maximum%20Level%20Sum%20of%20a%20Binary%20Tree) | [Medium](#medium-level), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
 | [1372. Longest ZigZag Path in a Binary Tree](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1300%20-%201399/1372.%20Longest%20ZigZag%20Path%20in%20a%20Binary%20Tree) | [Medium](#medium-level), [Dynamic Programming](#dynamic-programming), [Depth-First Search](#depth-first-search), [Binary Tree](#binary-tree) |
 | [1448. Count Good Nodes in Binary Tree](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1400%20-%201499/1448.%20Count%20Good%20Nodes%20in%20Binary%20Tree) | [Medium](#medium-level), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
+| [1466. Reorder Routes to Make All Paths Lead to the City Zero](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1400%20-%201499/1466.%20Reorder%20Routes%20to%20Make%20All%20Paths%20Lead%20to%20the%20City%20Zero) | [Medium](#medium-level), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Graph](#graph) |
 ---
 
 ## Breadth-First Search
@@ -1005,6 +1011,7 @@ Let's play LeetCode when I'm bored
 | [994. Rotting Oranges](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0900%20-%200999/994.%20Rotting%20Oranges) | [Medium](#medium-level), [Array](#array), [Breadth-First Search](#breadth-first-search), [Matrix](#matrix) |
 | [1161. Maximum Level Sum of a Binary Tree](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1100%20-%201199/1161.%20Maximum%20Level%20Sum%20of%20a%20Binary%20Tree) | [Medium](#medium-level), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
 | [1448. Count Good Nodes in Binary Tree](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1400%20-%201499/1448.%20Count%20Good%20Nodes%20in%20Binary%20Tree) | [Medium](#medium-level), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
+| [1466. Reorder Routes to Make All Paths Lead to the City Zero](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1400%20-%201499/1466.%20Reorder%20Routes%20to%20Make%20All%20Paths%20Lead%20to%20the%20City%20Zero) | [Medium](#medium-level), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Graph](#graph) |
 | [1926. Nearest Exit from Entrance in Maze](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1900%20-%201999/1926.%20Nearest%20Exit%20from%20Entrance%20in%20Maze) | [Medium](#medium-level), [Array](#array), [Breadth-First Search](#breadth-first-search), [Matrix](#matrix) |
 ---
 
@@ -1022,6 +1029,7 @@ Let's play LeetCode when I'm bored
 | [547. Number of Provinces](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0500%20-%200599/547.%20Number%20of%20Provinces) | [Medium](#medium-level), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Union Find](#union-find), [Graph](#graph) |
 | [841. Keys and Rooms](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0800%20-%200899/841.%20Keys%20and%20Rooms) | [Medium](#medium-level), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Graph](#graph) |
 | [909. Snakes and Ladders](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0900%20-%200999/909.%20Snakes%20and%20Ladders) | [Medium](#medium-level), [Array](#array), [Breadth-First Search](#breadth-first-search), [Matrix](#matrix), [Graph](#graph) |
+| [1466. Reorder Routes to Make All Paths Lead to the City Zero](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/1400%20-%201499/1466.%20Reorder%20Routes%20to%20Make%20All%20Paths%20Lead%20to%20the%20City%20Zero) | [Medium](#medium-level), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Graph](#graph) |
 ---
 
 ## Trie
