@@ -85,17 +85,17 @@ class Solution(object):
         :rtype: ListNode
         """
         # Option 2 - Time O(n+m), Space O(1)
-        current_A = headA
+        current = headA
         total_A = 0
-        while current_A:
+        while current:
             total_A += 1
-            current_A = current_A.next
+            current = current.next
 
-        current_B = headB
+        current = headB
         total_B = 0
-        while current_B:
+        while current:
             total_B += 1
-            current_B = current_B.next
+            current = current.next
 
         if total_A > total_B:
             for _ in range(total_A - total_B):
