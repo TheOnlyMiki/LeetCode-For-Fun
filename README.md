@@ -5,8 +5,8 @@ Let's play LeetCode when I'm bored
 |:------:|:------:|
 | [Easy](#easy-level)     | 78 |
 | [Medium](#medium-level) | 163 |
-| [Hard](#hard-level)     | 27 |
-| __TOTAL__  | __268__ |
+| [Hard](#hard-level)     | 28 |
+| __TOTAL__  | __269__ |
 ---
 
 ## Easy Level
@@ -286,6 +286,7 @@ Let's play LeetCode when I'm bored
 | [224. Basic Calculator](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0200%20-%200299/224.%20Basic%20Calculator) | [Math](#math), [String](#string), [Stack](#stack) |
 | [239. Sliding Window Maximum](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0200%20-%200299/239.%20Sliding%20Window%20Maximum) | [Array](#array), [Queue](#queue), [Sliding Window](#sliding-window) |
 | [295. Find Median from Data Stream](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0200%20-%200299/295.%20Find%20Median%20from%20Data%20Stream) | [Two Pointers](#two-pointers), [Design](#design), [Sorting](#sorting), [Queue](#queue) |
+| [332. Reconstruct Itinerary](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0300%20-%200399/332.%20Reconstruct%20Itinerary) | [Depth-First Search](#depth-first-search), [Graph](#graph) |
 | [403. Frog Jump](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0400%20-%200499/403.%20Frog%20Jump) | [Array](#array), [Dynamic Programming](#dynamic-programming), [Hash Table](#hash-table) |
 | [502. IPO](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0500%20-%200599/502.%20IPO) | [Array](#array), [Greedy](#greedy), [Sorting](#sorting), [Queue](#queue) |
 | [920. Number of Music Playlists](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0900%20-%200999/920.%20Number%20of%20Music%20Playlists) | [Math](#math), [Dynamic Programming](#dynamic-programming) |
@@ -1019,6 +1020,7 @@ Let's play LeetCode when I'm bored
 | [226. Invert Binary Tree](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0200%20-%200299/226.%20Invert%20Binary%20Tree) | [Easy](#easy-level), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
 | [230. Kth Smallest Element in a BST](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0200%20-%200299/230.%20Kth%20Smallest%20Element%20in%20a%20BST) | [Medium](#medium-level), [Depth-First Search](#depth-first-search), [Binary Tree](#binary-tree) |
 | [236. Lowest Common Ancestor of a Binary Tree](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0200%20-%200299/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree) | [Medium](#medium-level), [Breadth-First Search](#breadth-first-search), [Depth-First Search](#depth-first-search), [Binary Tree](#binary-tree) |
+| [332. Reconstruct Itinerary](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0300%20-%200399/332.%20Reconstruct%20Itinerary) | [Hard](#hard-level), [Depth-First Search](#depth-first-search), [Graph](#graph) |
 | [399. Evaluate Division](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0300%20-%200399/399.%20Evaluate%20Division) | [Medium](#medium-level), [Array](#array), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Union Find](#union-find), [Graph](#graph) |
 | [437. Path Sum III](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0400%20-%200499/437.%20Path%20Sum%20III) | [Medium](#medium-level), [Depth-First Search](#depth-first-search), [Binary Tree](#binary-tree) |
 | [530. Minimum Absolute Difference in BST](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0500%20-%200599/530.%20Minimum%20Absolute%20Difference%20in%20BST) | [Easy](#easy-level), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Binary Tree](#binary-tree) |
@@ -1079,6 +1081,7 @@ Let's play LeetCode when I'm bored
 | [200. Number of Islands](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0200%20-%200299/200.%20Number%20of%20Islands) | [Medium](#medium-level), [Array](#array), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Union Find](#union-find), [Matrix](#matrix), [Graph](#graph) |
 | [207. Course Schedule](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0200%20-%200299/207.%20Course%20Schedule) | [Medium](#medium-level), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Graph](#graph) |
 | [210. Course Schedule II](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0200%20-%200299/210.%20Course%20Schedule%20II) | [Medium](#medium-level), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Graph](#graph) |
+| [332. Reconstruct Itinerary](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0300%20-%200399/332.%20Reconstruct%20Itinerary) | [Hard](#hard-level), [Depth-First Search](#depth-first-search), [Graph](#graph) |
 | [399. Evaluate Division](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0300%20-%200399/399.%20Evaluate%20Division) | [Medium](#medium-level), [Array](#array), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Union Find](#union-find), [Graph](#graph) |
 | [433. Minimum Genetic Mutation](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0400%20-%200499/433.%20Minimum%20Genetic%20Mutation) | [Medium](#medium-level), [Hash Table](#hash-table), [String](#string), [Breadth-First Search](#breadth-first-search), [Graph](#graph) |
 | [547. Number of Provinces](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main/Problems/0500%20-%200599/547.%20Number%20of%20Provinces) | [Medium](#medium-level), [Depth-First Search](#depth-first-search), [Breadth-First Search](#breadth-first-search), [Union Find](#union-find), [Graph](#graph) |
