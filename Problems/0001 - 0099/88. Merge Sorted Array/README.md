@@ -66,7 +66,6 @@ class Solution(object):
         :rtype: None Do not return anything, modify nums1 in-place instead.
         """
         # Option 2 - In place Method
-        #Initial positive for nums1 and nums2
         if n == 0:
             return
 
@@ -74,6 +73,7 @@ class Solution(object):
             nums1[:] = nums2[:]
             return
 
+	#Initial positive for nums1 and nums2
         x, y, i = m-1, n-1, m+n-1
         while x != -1 and y != -1:
             if nums1[x] > nums2[y]:
