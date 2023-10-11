@@ -63,7 +63,7 @@ class Solution(object):
         return output
         """
 
-        # Option 1 - Sorting Method
+        # Option 1 - Sorting and Binary Search
         nums1.sort()
         nums2.sort()
         x, y = len(nums1), len(nums2)
