@@ -1,6 +1,7 @@
 # 384. Shuffle an Array
-### Tag: [Medium](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main#medium-level), [Array](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main#array), [Math](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main#math), [Randomized](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main#randomized)
+### Tag: [Medium](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main#medium-level), [Array](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main#array), [Math](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main#math), [Randomized](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main#randomized), [Design](https://github.com/TheOnlyMiki/LeetCode-For-Fun/tree/main#design)
 ---
+
 <div class="px-5 pt-4"><div class="flex"></div><div class="xFUwe" data-track-load="description_content"><p>Given an integer array <code>nums</code>, design an algorithm to randomly shuffle the array. All permutations of the array should be <strong>equally likely</strong> as a result of the shuffling.</p>
 
 <p>Implement the <code>Solution</code> class:</p>
