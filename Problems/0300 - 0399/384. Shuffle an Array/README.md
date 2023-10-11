@@ -54,25 +54,26 @@ class Solution(object):
         """
         :type nums: List[int]
         """
-        self.origin = nums[:]
         self.store = nums[:]
+        self.length = len(nums)-1
 
     def reset(self):
         """
         :rtype: List[int]
         """
-        return self.origin
+        return self.store
 
     def shuffle(self):
         """
         :rtype: List[int]
         """
-        length = len(self.store)-1
-        for i in range(length):
-            swap_i = random.randint(i, length)
-            self.store[i], self.store[swap_i] = self.store[swap_i], self.store[i]
+        nums = self.store[:]
 
-        return self.store
+        for i in range(self.length):
+            swap_i = random.randint(i, self.length)
+            nums[i], nums[swap_i] = nums[swap_i], nums[i]
+
+        return nums
 
 
 # Your Solution object will be instantiated and called as such:
