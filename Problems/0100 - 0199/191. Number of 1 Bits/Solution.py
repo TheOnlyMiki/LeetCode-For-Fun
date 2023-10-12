@@ -4,11 +4,11 @@ class Solution(object):
         :type n: int
         :rtype: int
         """
-        devide = (n, n)
+        devide, remain = n, n
         count = 0
-        while devide[0] != 0:
-            devide = divmod(devide[0], 2)
-            if devide[1] == 1:
+        while devide != 0:
+            devide, remain = divmod(devide, 2)
+            if remain == 1:
                 count += 1
 
         return count
