@@ -50,32 +50,33 @@ class Solution(object):
         # Option 1
         """
         def dfs(root, path):
-            if self.p_path and self.q_path:
-                return
-            if not root:
-                return
+            if root:
+                if self.p_path and self.q_path:
+                    return
 
-            if root.val == p.val:
-                self.p_path = path + [root.val]
-            elif root.val == q.val:
-                self.q_path = path + [root.val]
+                if root.val == p.val:
+                    self.p_path = path + [root.val]
+                elif root.val == q.val:
+                    self.q_path = path + [root.val]
 
-            path.append(root.val)
-            dfs(root.left, path)
-            dfs(root.right, path)
-            path.pop()
+                path.append(root.val)
+                dfs(root.left, path)
+                dfs(root.right, path)
+                path.pop()
+            
+            return
             
         self.p_path = None
         self.q_path = None
         dfs(root, [])
 
-        i, length = 1, min(len(self.p_path), len(self.q_path))
-        while i < length and self.p_path[i] == self.q_path[i]:
-            if root.left and root.left.val == self.p_path[i]:
+        for i in range(min(len(self.p_path), len(self.q_path))):
+            if self.p_path[i] != self.q_path[i]:
+                return root
+            elif root.left and root.left.val == self.p_path[i]:
                 root = root.left
             elif root.right and root.right.val == self.p_path[i]:
                 root = root.right
-            i += 1
 
         return root
         """
