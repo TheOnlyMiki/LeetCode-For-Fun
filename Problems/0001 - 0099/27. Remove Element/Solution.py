@@ -5,7 +5,17 @@ class Solution(object):
         :type val: int
         :rtype: int
         """
+        # Option 2 - In place
+        swap_i = 0
+        for num in nums:
+            if num != val:
+                nums[swap_i] = num
+                swap_i += 1
 
+        return swap_i
+
+        # Option 1 - extra spaces
+        """
         nums_result = []
         val_nums = 0
         length_of_nums = len(nums)
@@ -19,3 +29,4 @@ class Solution(object):
 
         nums[:] = nums_result
         return length_of_nums - val_nums
+        """
