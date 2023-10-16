@@ -13,11 +13,9 @@ class Solution(object):
         self.output = []
         def dfs(node):
             if node:
-                if node.left:
-                    dfs(node.left)
+                dfs(node.left)
                 self.output.append(node.val)
-                if node.right:
-                    dfs(node.right)
+                dfs(node.right)
         
         dfs(root)
         return self.output
