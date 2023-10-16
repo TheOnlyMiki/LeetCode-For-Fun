@@ -16,15 +16,15 @@ class Solution(object):
         # Option 2
         self.output = None
 
-        def bfs(root):
+        def dfs(root):
             if not root:
                 return False, False
 
-            find_p, find_q = bfs(root.left)
+            find_p, find_q = dfs(root.left)
             if find_p and find_q:
                 return True, True
 
-            find2_p, find2_q = bfs(root.right)
+            find2_p, find2_q = dfs(root.right)
             if find2_p and find2_q:
                 return True, True
 
@@ -43,38 +43,37 @@ class Solution(object):
 
             return find_p, find_q
 
-        bfs(root)
+        dfs(root)
 
         return self.output
 
-        # Option 1 - too slow
+        # Option 1
         """
-        self.p_path = None
-        self.q_path = None
-
-        def bfs(root, path):
+        def dfs(root, path):
+            if self.p_path and self.q_path:
+                return
             if not root:
-                return None
+                return
 
             if root.val == p.val:
-                self.p_path = (path + ',' + str(p.val)).split(',')
+                self.p_path = path + [root.val]
             elif root.val == q.val:
-                self.q_path = (path + ',' + str(q.val)).split(',')
+                self.q_path = path + [root.val]
 
-            bfs(root.left, path + ',' + str(root.val))
-            bfs(root.right, path + ',' + str(root.val))
+            path.append(root.val)
+            dfs(root.left, path)
+            dfs(root.right, path)
+            path.pop()
+            
+        self.p_path = None
+        self.q_path = None
+        dfs(root, [])
 
-        bfs(root, "")
-
-        i = 1
-        length = min(len(self.p_path), len(self.q_path))
-        temp = None
-        
+        i, length = 1, min(len(self.p_path), len(self.q_path))
         while i < length and self.p_path[i] == self.q_path[i]:
-            temp = int(self.p_path[i])
-            if root.left and root.left.val == temp:
+            if root.left and root.left.val == self.p_path[i]:
                 root = root.left
-            elif root.right and root.right.val == temp:
+            elif root.right and root.right.val == self.p_path[i]:
                 root = root.right
             i += 1
 
