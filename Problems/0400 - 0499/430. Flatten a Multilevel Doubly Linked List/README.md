@@ -18,7 +18,7 @@ After flattening the multilevel linked list it becomes:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2021/11/09/flatten2.1jpg" style="width: 200px; height: 200px;">
+<img src="flatten21.jpg" style="width: 200px; height: 200px;">
 <pre><strong>Input:</strong> head = [1,2,null,3]
 <strong>Output:</strong> [1,3,2]
 <strong>Explanation:</strong> The multilevel linked list in the input is shown.
