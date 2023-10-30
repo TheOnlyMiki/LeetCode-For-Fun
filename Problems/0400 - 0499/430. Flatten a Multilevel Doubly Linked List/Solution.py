@@ -14,7 +14,7 @@ class Solution(object):
         :type head: Node
         :rtype: Node
         """
-        # Option 2 - Queue
+        # Option 2 - Stack
         if not head:
             return None
 
