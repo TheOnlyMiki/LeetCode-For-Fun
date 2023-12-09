@@ -6,7 +6,7 @@ Let's play LeetCode when I'm bored
 | [Easy](#easy-level)     | 112 |
 | [Medium](#medium-level) | 188 |
 | [Hard](#hard-level)     | 30 |
-| __TOTAL__  | __331__ |
+| __TOTAL__  | __330__ |
 ---
 
 ## Easy Level
