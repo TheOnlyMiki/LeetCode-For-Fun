@@ -43,3 +43,6 @@ class Solution(object):
 
         return False
 ```
+hashtable最快,但是需要space,sort时间上最慢,空间需求小。但是排序不代表不占用extra space，取决于排序算法，如果是quicksort的话就最好情况不用extra space，不过quicksort会修改原数组，如果要保留的话需要复制，空间未必能做到O（1）。
+Quicksort 不是严格 O(1)：递归调用栈平均要 O(log n)，最坏 O(n)。真正 O(1) 额外空间的是 heapsort。
+Python 的 sort() 用的是 Timsort，最坏要 O(n) 额外空间。
