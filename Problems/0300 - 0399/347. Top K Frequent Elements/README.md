@@ -100,7 +100,7 @@ class Solution:
             if len(output) >= k:
                 break
 
-        return output[:k]
+        return output
         # time complexity O(n), space complexity O(n)
 
 ```
