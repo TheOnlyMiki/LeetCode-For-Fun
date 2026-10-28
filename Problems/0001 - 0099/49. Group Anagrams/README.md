@@ -63,3 +63,7 @@ class Solution:
         return list(record.values())
         # time complexity O(n m), space complexity O(n)
 ```
+第一想法就是每个key排序得到通用str格式，然后存入hashtable中。
+第二种方法是一样的，只不过count不需要关注排序，只需要做出26字符串的独特hashtable。
+Python 的 list 不能做字典 key，要转成 tuple(count)。
+如果把计数拼成字符串当 key，要加分隔符，比如 "1#0#2#..."。不加的话，计数 [1, 11] 和 [11, 1] 都会拼成 "111"，产生冲突。
