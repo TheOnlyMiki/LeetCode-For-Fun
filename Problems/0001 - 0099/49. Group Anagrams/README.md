@@ -32,21 +32,34 @@
 ### Solution
 
 ```python
-class Solution(object):
-    def groupAnagrams(self, strs):
-        """
-        :type strs: List[str]
-        :rtype: List[List[str]]
-        """
+class Solution:
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
 
-        count = {}
+        record = defaultdict(list)
 
+        # Method 1
+        """
         for word in strs:
             temp = "".join(sorted(word))
-            if temp in count:
-                count[temp].append(word)
+            '''
+            if temp in record:
+                record[temp].append(word)
             else:
-                count[temp] = [word]
+                record[temp] = [word]'''
+            #record[temp] = record.get(temp, []) + [word]
 
-        return count.values()
+            record[temp].append(word)
+        """
+        # time complexity O(n mlogm), space complexity O(n m)
+
+        # Method 2
+        for word in strs:
+            count = [0] * 26
+            for c in word:
+                count[ord(c) - ord('a')] += 1
+
+            record[tuple(count)].append(word)
+
+        return list(record.values())
+        # time complexity O(n m), space complexity O(n)
 ```
