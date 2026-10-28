@@ -72,3 +72,5 @@ class Solution:
         return remain
         # time complexity O(n), space complexity O(n)
 ```
+两遍扫描也是 O(n)，复杂度不变，一遍扫描的好处是能提前退出。
+先查再插入还顺带避免了同一个元素用两次。
